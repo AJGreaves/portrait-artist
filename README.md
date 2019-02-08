@@ -43,14 +43,13 @@ The customer goals of this website are:
 
 ##### Wireframe mockups available: 
 
-- [Home](../Mockups/1_Home.png)
-- [About](../Mockups/2_About.png) 
-- [Gallery](../Mockups/3_Gallery.png) 
-- [Individual Gallery View](../Mockups/3.1_Individual_gallery_view.png) 
-- [Pricing](../Mockups/4_Pricing.png) 
-- [How to Order](../Mockups/5_How_to_order.png) 
-- [Contact](../Mockups/6_Contact.png) 
-- [Error](../Mockups/7_Error.png) 
+- [Home](../Mockups/1_Home.jpg)
+- [About](../Mockups/2_About.jpg) 
+- [Gallery](../Mockups/3_Gallery.jpg) 
+- [Individual Gallery View](../Mockups/3.1_Individual_gallery_view.jpg) 
+- [Pricing](../Mockups/4_Pricing.jpg) 
+- [How to Order](../Mockups/5_How_to_order.jpg) 
+- [Contact](../Mockups/6_Contact.jpg) 
 
 ## Features
 
@@ -113,13 +112,6 @@ The Contact page features a **contact form**, which requests client name, email,
 At the bottom of the form clients can **upload** photograph(s) they want the artist to use. 
 
 The bottom of the form contains a **Send Button** which when clicked changes from *Send* to *Processing* and then when complete changes to *Sent*.
-
-##### Error
-
-The Error page is the only page that does not feature a hero image. 
-
-A short text explaining that the page the user is looking for cannot be found. 
-And a **button** to return them to the *Home* page
  
 ### Existing Features
 
