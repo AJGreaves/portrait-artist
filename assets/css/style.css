@@ -5,7 +5,7 @@ h1{
     font-size: 60px;
 }
 
-h2, h3, h4, h5, h6, h7, h8, {
+h2, h3, h4, h5, h6, h7, h8{
     font-family: 'Noto Serif SC', serif;
 }
 
@@ -26,6 +26,9 @@ a:hover{
     text-decoration: none;
 }
 
+.pagetop-pushdown{
+    height: 66px;
+}
 
 /*------------IMAGES------------*/
 
@@ -35,7 +38,6 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-origin: 
 }
 
 .hero-img-home{
