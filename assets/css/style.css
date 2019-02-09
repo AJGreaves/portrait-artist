@@ -1,3 +1,16 @@
+h1{
+    font-family: 'Tangerine', serif;
+    font-size: 60px;
+}
+
+h2, h3, h4, h5, h6, h7, h8, p{
+    font-family: 'Noto Serif SC', serif;
+}
+
+.italic{
+    font-style: italic
+}
+
 /*-------------------------------------NAVIGATION*/
 
 .navbar{
@@ -18,6 +31,7 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    background-origin: 
 }
 
 .hero-img-home{
@@ -49,7 +63,7 @@ a:hover{
   
 .fa-instagram:hover {color: #fbad50;}
 .fa-pinterest:hover {color: #c8232c;}
-.fa-facebook:hover {color: #8b9dc3;}
+.fa-facebook:hover {color: #3b5998;}
 .fa-twitter:hover {color: #38A1F3;}
 .fa-flickr:hover {color: #ff0084;}
 
