@@ -3,12 +3,12 @@ h1{
     font-size: 60px;
 }
 
-h2, h3, h4, h5, h6, h7, h8, p{
+h2, h3, h4, h5, h6, h7, h8, {
     font-family: 'Noto Serif SC', serif;
 }
 
-.italic{
-    font-style: italic
+p{
+    font-family: 'Roboto', sans-serif;
 }
 
 /*-------------------------------------NAVIGATION*/
@@ -27,7 +27,7 @@ a:hover{
 
 .hero-img{
     height: 300px;
-    background-position: center;
+    background-position: center 25%;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
