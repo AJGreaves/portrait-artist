@@ -13,31 +13,16 @@ a:hover{
 /*-------------------------------------IMAGES*/
 
 .hero-img{
-    background-image: url("assets/images/herohome.jpg");
     height: 300px;
-    min-width: 425px;
-    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .hero-img-home{
-    width: 100%;
+    background-image: url("../images/herohome.jpg");
 }
-
-
-/* The hero image */
-.hero-image {
-
-
-  /* Set a specific height */
-  height: 50%;
-
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
 
 
 /*-------------------------------------FOOTER*/
