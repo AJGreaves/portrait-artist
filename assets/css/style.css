@@ -10,6 +10,36 @@ a:hover{
 }
 
 
+/*-------------------------------------IMAGES*/
+
+.hero-img{
+    background-image: url("assets/images/herohome.jpg");
+    height: 300px;
+    min-width: 425px;
+    z-index: -1;
+}
+
+.hero-img-home{
+    width: 100%;
+}
+
+
+/* The hero image */
+.hero-image {
+
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+
 /*-------------------------------------FOOTER*/
 
 .text-shadow-2{
@@ -20,14 +50,15 @@ a:hover{
     text-shadow: 1px 1px #000;
 }
 
+
 /*-------------------------------------SOCIAL ICONS*/
 
-.fa{
+.fab{
   color: #ffffff; 
   transition: all 0.5s ease-in-out 0.2s;
 }
 
-.fa:hover {
+.fab:hover {
     transform: scale(1.4);
 }
   
