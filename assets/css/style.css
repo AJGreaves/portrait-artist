@@ -1,9 +1,40 @@
 /*-------------------------------------NAVIGATION*/
 
-.navbar-nav{
+.navbar{
+    box-shadow: 0px 8px 10px 1px rgba(0,0,0,1);
     text-align: center;
 }
 
-.a-icon {
-    
+a:hover{
+    text-decoration: none;
 }
+
+
+/*-------------------------------------FOOTER*/
+
+.text-shadow-2{
+    text-shadow: 2px 2px #000;
+}
+
+.text-shadow-1{
+    text-shadow: 1px 1px #000;
+}
+
+/*-------------------------------------SOCIAL ICONS*/
+
+.fa{
+  color: #ffffff; 
+  transition: all 0.5s ease-in-out 0.2s;
+}
+
+.fa:hover {
+    transform: scale(1.4);
+}
+  
+.fa-instagram:hover {color: #fbad50;}
+.fa-pinterest:hover {color: #c8232c;}
+.fa-facebook:hover {color: #8b9dc3;}
+.fa-twitter:hover {color: #38A1F3;}
+.fa-flickr:hover {color: #ff0084;}
+
+
