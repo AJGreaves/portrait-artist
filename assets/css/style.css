@@ -1,3 +1,5 @@
+/*------------FONTS------------*/
+
 h1{
     font-family: 'Tangerine', serif;
     font-size: 60px;
@@ -11,11 +13,13 @@ p{
     font-family: 'Roboto', sans-serif;
 }
 
-/*-------------------------------------NAVIGATION*/
+
+/*------------NAVIGATION------------*/
 
 .navbar{
     box-shadow: 0px 8px 10px 1px rgba(0,0,0,1);
     text-align: center;
+    z-index: 1;
 }
 
 a:hover{
@@ -23,7 +27,7 @@ a:hover{
 }
 
 
-/*-------------------------------------IMAGES*/
+/*------------IMAGES------------*/
 
 .hero-img{
     height: 300px;
@@ -39,7 +43,7 @@ a:hover{
 }
 
 
-/*-------------------------------------FOOTER*/
+/*------------FOOTER------------*/
 
 .text-shadow-2{
     text-shadow: 2px 2px #000;
@@ -50,7 +54,7 @@ a:hover{
 }
 
 
-/*-------------------------------------SOCIAL ICONS*/
+/*------------SOCIAL ICONS------------*/
 
 .fab{
   color: #ffffff; 
