@@ -15,7 +15,8 @@ p{
     font-family: 'Roboto', sans-serif;
 }
 
-.sales-pitch p{
+section #p-emphasis p,
+#p-emphasis p{
     font-family: 'Noto Serif SC', serif; 
     font-weight: 500;
     font-size: 18px;
