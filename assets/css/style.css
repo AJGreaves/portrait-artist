@@ -1,5 +1,7 @@
 /*------------FONTS------------*/
 
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC|Tangerine|Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
 h1{
     font-family: 'Tangerine', serif;
     font-size: 60px;
@@ -11,6 +13,12 @@ h2, h3, h4, h5, h6, h7, h8{
 
 p{
     font-family: 'Roboto', sans-serif;
+}
+
+.sales-pitch p{
+    font-family: 'Noto Serif SC', serif; 
+    font-weight: 500;
+    font-size: 18px;
 }
 
 
@@ -47,13 +55,13 @@ a:hover{
 /*------------EMBEDDED VIDEO BACKGROUND------------
 Original code credit: https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
 
-
 .video {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 0px;
 	height: 0;
 }
+
 .video iframe {
 	position: absolute;
 	top: 0;
