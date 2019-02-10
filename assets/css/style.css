@@ -46,6 +46,7 @@ a:hover{
 }
 
 /*------------IMAGES------------*/
+/*HERO IMAGES*/
 
 .hero-img{
     height: 400px;
@@ -64,7 +65,7 @@ a:hover{
     background-position: center 35%;
 }
 
-/*------------------ABOUT*/
+/*ABOUT PAGE*/
 
 .about-img{
     height: 300px;
@@ -75,15 +76,16 @@ a:hover{
 }
 
 .about-img-1{
-    background-image: url("../images/about1.jpg")
+    background-image: url("../images/about1.jpg");
 }
 
 .about-img-2{
-    background-image: url("../images/about2.jpg")
+    background-image: url("../images/about2.jpg");
 }
 
 .about-img-3{
-    background-image: url("../images/about3.jpg")
+    background-image: url("../images/about3.jpg");
+    background-position: center 25%;
 }
 
 
