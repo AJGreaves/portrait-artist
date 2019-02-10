@@ -48,7 +48,6 @@ a:hover{
 
 .hero-img{
     height: 400px;
-    background-position: center 25%;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -56,6 +55,12 @@ a:hover{
 
 .hero-img-home{
     background-image: url("../images/herohome.jpg");
+    background-position: center 25%;
+}
+
+.hero-img-about{
+    background-image: url("../images/heroabout.jpg");
+    background-position: center 20%;
 }
 
 /*------------EMBEDDED VIDEO BACKGROUND------------
