@@ -64,6 +64,29 @@ a:hover{
     background-position: center 35%;
 }
 
+/*------------------ABOUT*/
+
+.about-img{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.about-img-1{
+    background-image: url("../images/about1.jpg")
+}
+
+.about-img-2{
+    background-image: url("../images/about2.jpg")
+}
+
+.about-img-3{
+    background-image: url("../images/about3.jpg")
+}
+
+
 /*------------EMBEDDED VIDEO BACKGROUND------------
 Original code credit: https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
 
