@@ -84,6 +84,11 @@ a:hover{
     background-position: center 55%;
 }
 
+.hero-img-contact{
+    background-image: url("../images/herocontact.jpg");
+    background-position: center 35%;
+}
+
 /*ABOUT PAGE*/
 
 .about-img{
