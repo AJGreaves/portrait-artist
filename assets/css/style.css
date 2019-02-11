@@ -11,7 +11,7 @@ h2, h3, h4, h5, h6, h7, h8{
     font-family: 'Noto Serif SC', serif;
 }
 
-p{
+p, ol{
     font-family: 'Roboto', sans-serif;
 }
 
@@ -20,6 +20,18 @@ section #p-emphasis p,
     font-family: 'Noto Serif SC', serif; 
     font-weight: 500;
     font-size: 18px;
+}
+
+
+/*------------LINKS------------*/
+
+a{
+    color: #6c757d;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #17a2b8
 }
 
 
@@ -36,10 +48,6 @@ section #p-emphasis p,
     box-shadow: 0px 8px 10px 1px rgba(0,0,0,0.2);
     text-align: center;
     z-index: 1;
-}
-
-a:hover{
-    text-decoration: none;
 }
 
 .pagetop-pushdown{
