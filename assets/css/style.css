@@ -74,6 +74,11 @@ a:hover{
     background-position: center 35%;
 }
 
+.hero-img-gallery{
+    background-image: url("../images/herogallery.jpg");
+    background-position: center 28%;
+}
+
 .hero-img-pricing{
     background-image: url("../images/heropricing.jpg");
     background-position: center 60%;
