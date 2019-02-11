@@ -198,6 +198,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Media
 - The photos used in this site were obtained from the artist - Anna Gilhespy.
+- Photography about1.jpg and about3.jpg by [Rudi Wells Photography](https://headshots.amsterdam) and obtained from the artist - Anna Gilhespy.
 - The video on this website was produced by [Luke Davis](https://about.me/lukedavies) and obtained from the artist - Anna Gilhespy.
 
 ### Acknowledgements
