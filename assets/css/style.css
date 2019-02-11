@@ -71,6 +71,11 @@ a:hover{
     background-position: center 60%;
 }
 
+.hero-img-order{
+    background-image: url("../images/heroorder.jpg");
+    background-position: center 55%;
+}
+
 /*ABOUT PAGE*/
 
 .about-img{
