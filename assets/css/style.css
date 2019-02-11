@@ -67,7 +67,8 @@ a:hover{
 }
 
 .hero-img-pricing{
-    
+    background-image: url("../images/heropricing.jpg");
+    background-position: center 60%;
 }
 
 /*ABOUT PAGE*/
