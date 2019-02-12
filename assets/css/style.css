@@ -41,6 +41,13 @@ a:hover{
     border-top: 1px solid #000;
 }
 
+/*------------MARGINS------------*/
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 
 /*------------NAVIGATION------------*/
 
@@ -182,7 +189,7 @@ Original code credit: https://css-tricks.com/NetMag/FluidWidthVideo/Article-Flui
 }
 
 
-@media screen and (max-width: 992px) { /*code written and offered by Sean Murphy, fellow student*/
+@media screen and (max-width: 992px) {
 	.gallery-img {
 		display: flex;
 		justify-content: center;
