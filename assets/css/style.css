@@ -127,7 +127,7 @@ a:hover{
 /*GALLERY PAGE IMAGES*/
 
 .gallery-img img{
-    width: 100%
+    width: 100%;
 }
 
 
@@ -195,5 +195,11 @@ Original code credit: https://css-tricks.com/NetMag/FluidWidthVideo/Article-Flui
 		justify-content: center;
 		max-width: 50%;
 		padding: 10px;
+	}
+} 
+
+@media screen and (min-width: 993px) {
+	.gallery-row {
+		margin-top: 1rem;
 	}
 } 
