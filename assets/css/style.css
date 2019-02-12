@@ -200,6 +200,6 @@ Original code credit: https://css-tricks.com/NetMag/FluidWidthVideo/Article-Flui
 
 @media screen and (min-width: 993px) {
 	.gallery-row {
-		margin-top: 1rem;
+		margin-top: 2rem;
 	}
 } 
