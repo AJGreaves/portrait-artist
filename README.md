@@ -43,13 +43,13 @@ The customer goals of this website are:
 
 ##### Wireframe mockups available: 
 
-- [Home](../Mockups/1_Home.jpg)
-- [About](../Mockups/2_About.jpg) 
-- [Gallery](../Mockups/3_Gallery.jpg) 
-- [Individual Gallery View](../Mockups/3.1_Individual_gallery_view.jpg) 
-- [Pricing](../Mockups/4_Pricing.jpg) 
-- [How to Order](../Mockups/5_How_to_order.jpg) 
-- [Contact](../Mockups/6_Contact.jpg) 
+- [Home](http://annagilhespy.com/wp-content/uploads/2019/02/1-Home.jpg)
+- [About](http://annagilhespy.com/wp-content/uploads/2019/02/2-about.jpg) 
+- [Gallery](http://annagilhespy.com/wp-content/uploads/2019/02/3-Gallery.jpg) 
+- [Individual Gallery View](http://annagilhespy.com/wp-content/uploads/2019/02/3.1-Individual-gallery-view.jpg) 
+- [Pricing](http://annagilhespy.com/wp-content/uploads/2019/02/4-Pricing.jpg) 
+- [How to Order](http://annagilhespy.com/wp-content/uploads/2019/02/5-How-to-order.jpg) 
+- [Contact](http://annagilhespy.com/wp-content/uploads/2019/02/6-Contact.jpg) 
 
 ## Features
 
