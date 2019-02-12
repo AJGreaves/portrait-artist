@@ -65,28 +65,33 @@ a:hover{
 }
 
 .hero-img-home{
-    background-image: url("../images/herohome.jpg");
+    background-image: url("http://annagilhespy.com/wp-content/uploads/2019/02/herohome.jpg");
     background-position: center 25%;
 }
 
 .hero-img-about{
-    background-image: url("../images/heroabout.jpg");
+    background-image: url("http://annagilhespy.com/wp-content/uploads/2019/02/heroabout.jpg");
     background-position: center 35%;
 }
 
 .hero-img-pricing{
-    background-image: url("../images/heropricing.jpg");
+    background-image: url("http://annagilhespy.com/wp-content/uploads/2019/02/heropricing.jpg");
     background-position: center 60%;
 }
 
 .hero-img-order{
-    background-image: url("../images/heroorder.jpg");
+    background-image: url("http://annagilhespy.com/wp-content/uploads/2019/02/heroorder.jpg");
     background-position: center 55%;
 }
 
 .hero-img-contact{
-    background-image: url("../images/herocontact.jpg");
+    background-image: url("http://annagilhespy.com/wp-content/uploads/2019/02/herocontact.jpg");
     background-position: center 35%;
+}
+
+.hero-img-gallery{
+    background-image: url("http://annagilhespy.com/wp-content/uploads/2019/02/herogallery.jpg");
+    background-position: center 55%;
 }
 
 /*ABOUT PAGE*/
