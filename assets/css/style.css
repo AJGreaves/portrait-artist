@@ -180,3 +180,13 @@ Original code credit: https://css-tricks.com/NetMag/FluidWidthVideo/Article-Flui
 @media (max-aspect-ratio: 16/9) {
   .video-foreground { width: 300%; left: -100%; }
 }
+
+
+@media screen and (max-width: 992px) { /*code written and offered by Sean Murphy, fellow student*/
+	.gallery-img {
+		display: flex;
+		justify-content: center;
+		max-width: 50%;
+		padding: 10px;
+	}
+} 
