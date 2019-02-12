@@ -94,7 +94,7 @@ a:hover{
     background-position: center 55%;
 }
 
-/*ABOUT PAGE*/
+/*ABOUT PAGE IMAGES*/
 
 .about-img{
     height: 300px;
@@ -115,6 +115,12 @@ a:hover{
 .about-img-3{
     background-image: url("http://annagilhespy.com/wp-content/uploads/2019/02/about3.jpg");
     background-position: center 25%;
+}
+
+/*GALLERY PAGE IMAGES*/
+
+.gallery-img img{
+    height: 150px;
 }
 
 
