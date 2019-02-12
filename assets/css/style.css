@@ -120,7 +120,7 @@ a:hover{
 /*GALLERY PAGE IMAGES*/
 
 .gallery-img img{
-    height: 150px;
+    width: 100%
 }
 
 
