@@ -34,7 +34,6 @@ a:hover{
     color: #17a2b8
 }
 
-
 /*------------BORDERS------------*/
 
 .testimonials{
@@ -181,13 +180,13 @@ Original code credit: https://css-tricks.com/NetMag/FluidWidthVideo/Article-Flui
 
 /*------------MEDIA QUERIES------------*/
 
-@media (min-aspect-ratio: 16/9) {
+@media (min-aspect-ratio: 16/9) { /*scales video to fit width of screen*/
   .video-foreground { height: 300%; top: -100%; }
 }
+
 @media (max-aspect-ratio: 16/9) {
   .video-foreground { width: 300%; left: -100%; }
 }
-
 
 @media screen and (max-width: 992px) {
 	.gallery-img {
