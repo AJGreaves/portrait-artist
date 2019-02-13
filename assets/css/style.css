@@ -197,8 +197,9 @@ Original code credit: https://css-tricks.com/NetMag/FluidWidthVideo/Article-Flui
 
 .full-screen-img{
     background-image: url("http://annagilhespy.com/wp-content/uploads/2019/02/herohome.jpg");
-    background-size: cover;
     position: absolute;
+    background-size: cover;
+    background-position: center 25%;
     top: 0;
     left: 0;
     width: 100%;
@@ -206,37 +207,46 @@ Original code credit: https://css-tricks.com/NetMag/FluidWidthVideo/Article-Flui
 }
 
 .video-background{
-    background: #000;
     position: fixed;
     top: 0; right: 0; bottom: 0; left: 0;
     z-index: -99;
 }
 
-.video-background,
-.video-foreground iframe{
+.video-background{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     pointer-events: none;
+    overflow: hidden;
+}
+
+.video-foreground{
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
 }
 
 .video-foreground iframe{
-    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-
-
+.home-main{
+    position: static;
+}
 
 /*------------ MEDIA QUERIES ------------*/
 
-@media (min-aspect-ratio: 16/9) { /*scales video to fit width of screen*/
-  .video-foreground { height: 300%; top: -100%; }
-}
-
-@media (max-aspect-ratio: 16/9) {
-  .video-foreground { width: 300%; left: -100%; }
+@media screen and (max-width: 768px){
+    .vid-info h3{
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 992px) { /*phones and tablets*/
@@ -246,12 +256,34 @@ Original code credit: https://css-tricks.com/NetMag/FluidWidthVideo/Article-Flui
 		max-width: 50%;
 		padding: 10px;
 	}
+	
+	.overlay {
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 30%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    line-height: 1.5;
+    text-align: center;
+    }
 } 
 
 @media screen and (min-width: 993px) { /*desktops and XL screens*/
 	.gallery-row {
 		margin-top: 2rem;
 	}
+	
+	.overlay {
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    line-height: 1.5;
+    text-align: center;
+    }
 } 
 
 
