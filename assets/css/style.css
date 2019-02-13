@@ -15,11 +15,12 @@ p, ol{
     font-family: 'Roboto', sans-serif;
 }
 
-section #p-emphasis p,
+em #p-emphasis p,
 #p-emphasis p{
     font-family: 'Noto Serif SC', serif; 
     font-weight: 500;
     font-size: 18px;
+    font-style: normal;
 }
 
 
