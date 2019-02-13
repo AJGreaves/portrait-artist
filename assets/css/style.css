@@ -78,32 +78,32 @@ a:hover{
 }
 
 /*.hero-img-home{
-    background-image: url("http://annagilhespy.com/wp-content/uploads/2019/02/herohome.jpg");
+    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/herohome.jpg");
     background-position: center 25%;
 }*/
 
 .hero-img-about{
-    background-image: url("http://annagilhespy.com/wp-content/uploads/2019/02/heroabout.jpg");
+    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/heroabout.jpg");
     background-position: center 35%;
 }
 
 .hero-img-pricing{
-    background-image: url("http://annagilhespy.com/wp-content/uploads/2019/02/heropricing.jpg");
+    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/heropricing.jpg");
     background-position: center 60%;
 }
 
 .hero-img-order{
-    background-image: url("http://annagilhespy.com/wp-content/uploads/2019/02/heroorder.jpg");
+    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/heroorder.jpg");
     background-position: center 55%;
 }
 
 .hero-img-contact{
-    background-image: url("http://annagilhespy.com/wp-content/uploads/2019/02/herocontact.jpg");
+    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/herocontact.jpg");
     background-position: center 35%;
 }
 
 .hero-img-gallery{
-    background-image: url("http://annagilhespy.com/wp-content/uploads/2019/02/herogallery.jpg");
+    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/herogallery.jpg");
     background-position: center 55%;
 }
 
@@ -118,15 +118,15 @@ a:hover{
 }
 
 .about-img-1{
-    background-image: url("http://annagilhespy.com/wp-content/uploads/2019/02/about1.jpg");
+    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/about1.jpg");
 }
 
 .about-img-2{
-    background-image: url("http://annagilhespy.com/wp-content/uploads/2019/02/about2.jpg");
+    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/about2.jpg");
 }
 
 .about-img-3{
-    background-image: url("http://annagilhespy.com/wp-content/uploads/2019/02/about3.jpg");
+    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/about3.jpg");
     background-position: center 25%;
 }
 
@@ -196,7 +196,7 @@ Original code credit: https://css-tricks.com/NetMag/FluidWidthVideo/Article-Flui
 /*------------------------ HOME PAGE TESTING ------------------------*/
 
 .full-screen-img{
-    background-image: url("http://annagilhespy.com/wp-content/uploads/2019/02/herohome.jpg");
+    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/herohome.jpg");
     position: absolute;
     background-size: cover;
     background-position: center;
