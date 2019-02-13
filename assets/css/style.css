@@ -197,14 +197,13 @@ Original code credit: https://css-tricks.com/NetMag/FluidWidthVideo/Article-Flui
 
 .full-screen-img{
     background-image: url("http://annagilhespy.com/wp-content/uploads/2019/02/herohome.jpg");
+    background-size: cover;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
 }
-
-* { box-sizing: border-box; }
 
 .video-background{
     background: #000;
@@ -221,6 +220,10 @@ Original code credit: https://css-tricks.com/NetMag/FluidWidthVideo/Article-Flui
     width: 100%;
     height: 100%;
     pointer-events: none;
+}
+
+.video-foreground iframe{
+    background-size: cover;
 }
 
 
