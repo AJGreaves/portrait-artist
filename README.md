@@ -143,7 +143,7 @@ tools that you have used to construct this project. For each, provide its name, 
 official site and a short sentence of why it was used.
 
 - [BootstrapCDN](https://www.bootstrapcdn.com/)
-    - The project uses **BootstrapCDN** to simplify the structure of the website and make the website responsive easily.
+    - The project uses **Bootstrap4** to simplify the structure of the website and make the website responsive easily.
     - The project also uses BootstrapCDN to provide icons from [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
 - [fancybox](https://fancyapps.com/fancybox/3/)
     - The project uses **Fancybox** to view images in the gallery.
@@ -200,6 +200,9 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The photos used in this site were obtained from the artist - Anna Gilhespy.
 - Photography about1.jpg and about3.jpg by [Rudi Wells Photography](https://headshots.amsterdam) and obtained from the artist - Anna Gilhespy.
 - The video on this website was produced by [Luke Davis](https://about.me/lukedavies) and obtained from the artist - Anna Gilhespy.
+
+### Code
+- 
 
 ### Acknowledgements
 
