@@ -16,7 +16,7 @@ p, ol{
 }
 
 em #p-emphasis p,
-#p-emphasis p{
+#em-emphasis{
     font-family: 'Noto Serif SC', serif; 
     font-weight: 500;
     font-size: 18px;
@@ -80,6 +80,7 @@ a:hover{
 
 .video{
     position:absolute;
+    border-style: none;
     top:0;
     left:0;
     width:100%;
