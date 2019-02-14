@@ -153,14 +153,16 @@ The bottom of the form contains a **Send Button**
 In this section, you should mention all of the languages, frameworks, libraries, and any other 
 tools that you have used to construct this project. For each, provide its name, a link to its 
 official site and a short sentence of why it was used.
-
+- This project uses HTML5 and CSS programming languages.
 - [BootstrapCDN](https://www.bootstrapcdn.com/)
     - The project uses **Bootstrap4** to simplify the structure of the website and make the website responsive easily.
     - The project also uses BootstrapCDN to provide icons from [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
 - [fancybox](https://fancyapps.com/fancybox/3/)
-    - The project uses **Fancybox** to view images in the gallery.
-- [Hover.css](http://ianlunn.github.io/Hover/)
-    - The project uses **Hover.css** to simplify UX
+    - The project uses **Fancybox** for a gallery modal popup to view gallery images.
+- [Google Fonts](https://fonts.google.com/)
+    - The project uses **Google fonts** to style the website fonts.
+- [Vimeo](https://vimeo.com) 
+    - The project used **Vimeo** to host the promotional video. 
 
 ## Testing - STILL TO COMPLETE
 
@@ -214,6 +216,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The video on this website was produced by [Luke Davis](https://about.me/lukedavies) and obtained from the artist - Anna Gilhespy.
 
 ### Code
+- Code for shadows and hover responsiveness of gallery images was originally taken from [Material Design Box Shadows| A Pen By Samuel Thornton](https://codepen.io/sdthornton/pen/wBZdXq) and then edited.
 - 
 
 ### Acknowledgements

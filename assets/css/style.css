@@ -71,6 +71,35 @@ a:hover{
     width: 99%;
 }
 
+/*------------ EMBEDDED VIDEO BACKGROUND & OVERLAY ------------*/
+
+.video-wrapper{
+    padding: 56.25% 0 0 0;
+    position: relative;
+}
+
+.video{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index: -99;
+}
+
+.video-overlay {
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom:20%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    line-height: 1.5;
+    text-align: center;
+    z-index: -98;
+    }
+    
+
 /*------------ IMAGES ------------*/
 /*HERO IMAGES*/
 
@@ -111,6 +140,33 @@ a:hover{
     background-position: center 55%;
 }
 
+/*HOME PAGE IMAGES & OVERLAY*/
+
+.hero-img-wrapper{
+    position: relative;
+}
+
+.special-hero-home{
+    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/herohome.jpg");
+    position: relative;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 25%;
+}
+
+.hero-home-overlay{
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom:33%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    line-height: 1.5;
+    text-align: center;
+    }
+    
+
 /*ABOUT PAGE IMAGES*/
 
 .about-img{
@@ -148,10 +204,7 @@ a:hover{
 .gallery-img img{
     width: 100%;
 }
-
-
-/*------------ EMBEDDED VIDEO BACKGROUND ------------*/
-
+    
 
 /*------------ FOOTER ------------*/
 
@@ -181,57 +234,6 @@ a:hover{
 .fa-twitter:hover {color: #38A1F3;}
 .fa-flickr:hover {color: #ff0084;}
 
-/*------------------------ HOME PAGE TESTING ------------------------*/
-
-.video-wrapper{
-    padding: 56.25% 0 0 0;
-    position: relative;
-}
-
-.video{
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    z-index: -99;
-}
-
-.video-overlay {
-    background: rgba(0,0,0,0.5);
-    position: absolute;
-    bottom:20%;
-    left: 0;
-    right: 0;
-    width: 100%;
-    line-height: 1.5;
-    text-align: center;
-    z-index: -98;
-    }
-
-.hero-img-wrapper{
-    position: relative;
-}
-
-.special-hero-home{
-    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/herohome.jpg");
-    position: relative;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center 25%;
-}
-
-.hero-home-overlay{
-    background: rgba(0,0,0,0.5);
-    position: absolute;
-    bottom:33%;
-    left: 0;
-    right: 0;
-    width: 100%;
-    line-height: 1.5;
-    text-align: center;
-    }
 
 /*------------ MEDIA QUERIES ------------*/
 
