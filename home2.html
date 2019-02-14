@@ -12,8 +12,55 @@
 		<!-- REMINDER: ADD SEO METADATA -->
 	</head>
 	<body>
-		<!-- FULL WIDTH HERO RESPONSIVE VIDEO ON DESKTOP / STATIC IMG ON TABLET + MOBILE -->
-	    <div class="video-wrapper d-none d-lg-block">
+		<!-- LOGO AND NAV BAR -->
+		<nav class="navbar navbar-expand-md navbar-light fixed-top bg-white"> 
+		
+			<!-- LOGO -->
+			<a class="navbar-brand" href="index.html">
+				<img src="assets/images/logo.gif" height="40px"></img>  
+			</a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarCollapse"
+				aria-controls="navbarCollapse"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<!-- NAV BAR LINKS -->
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav ml-auto text-uppercase">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="gallery.html">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="pricing.html">Pricing</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="how-to-order.html">How to Order</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+				<!-- REQUEST QUOTE BUTTON -->
+				<a class="btn btn-info text-uppercase" href="contact.html">Request a Quote</a>
+			</div>
+		</nav> 
+		
+		<!-- FULL WIDTH HERO RESPONSIVE VIDEO/IMAGE -->
+		<!-- VIDEO SEE ONLY ON DESKTOP -->
+	    <div class="video-wrapper d-none d-lg-block"> 
 	    	<iframe class="video" src="https://player.vimeo.com/video/317180428?background=1&muted=1&autoplay=1&loop=1&title=0&byline=0&portrait=0" 
 	    	frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
 	    	</iframe>
@@ -28,6 +75,7 @@
 	        </div> <!--END overlay-->
 	    </div> <!--END video element-->
 	    
+	    <!-- STATIC IMAGE SEE ONLY ON MOBILE AND TABLET -->
 	    <div class="container-fluid p-0 m-0 d-lg-none">
 	    	<div class="row p-0 m-0">
 	    		<div class="col-12 p-0 m-0">
@@ -43,11 +91,76 @@
 		            </div>
 		        </div> <!--END overlay-->
 	    	</div>
-	    </div><!--END special hero element -->
+	    </div><!--END image element -->
 	    
-	    <div>
-	    	test text kjhravliuhtakjvrbtakevhr euv lr aatrhja
-	    </div>
+	    
+	    <!-- MAIN CONTENT OF HOME PAGE -->
+		<main>
+			
+			<!-- SALES PITCH -->
+			<section class="container-fluid">
+				<div class="row justify-content-center my-4 text-center">
+					<em id="p-emphasis" class="col-12">
+						<p>Children grow up so fast, and in the rush, it’s easy to forget the way they used to be.</p>
+						<p>I use traditional methods to make timeless portraits from your photographs.</p>
+						<p>My pencil drawings and oil paintings are made in full consultation with you, and will last for generations.</p>
+					</em>
+				</div>
+			</section>
+			
+			<!-- TESTIMONIALS -->
+			<section class="container-fluid testimonials text-center">
+				<div class="row">
+					<div class="col my-3">
+						<h2>What my Customers Say...</h2>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="quote col-sm-12 col-md-4 col-lg-3">
+						<blockquote>
+							<p>Anna gave me great advice on a suitable photo for my daughter's portrait, met the deadline 
+							and even delivered the final product directly to my door, but most importantly, she created 
+							a unique drawing of my daughter which really reflects her personality. We've had tonnes of compliments 
+							from friends and adoring family members.</p>
+							<footer>
+							— <cite>Lucie, Amsterdam</cite>
+							</footer>
+						</blockquote>
+					</div>
+					<div class="quote col-sm-12 col-md-4 col-lg-3 d-none d-sm-block">
+						<blockquote>
+							<p>When I saw a sample of Anna’s work. WOW! It took my breath away. 
+							When trying to think of a special and unique gift for my partner, she automatically came to mind. 
+							I couldn’t have asked for a better reaction on his face when he saw the 
+							sketch for the first time. It now has a very proud place in our home and we love showing it off!</p>
+							<footer>
+							— <cite>Elke, Amstelveen</cite>
+							</footer>
+						</blockquote>
+					</div>
+					<div class="quote col-sm-12 col-md-4 col-lg-3">
+						<blockquote>
+							<p>Not only was the artwork spectacular. The delivery was amazingly quick given that it was 
+							ordered during the Christmas rush and Anna went out of her way to deliver some extra, 
+							specially requested products which she had to source for me as well. My husband was delighted 
+							with his gift.</p>
+							<footer>
+							— <cite>Emmy, Amsterdam</cite>
+							</footer>
+						</blockquote>
+					</div>
+				</div>
+			</section>
+			
+			<!-- BUTTON: VISIT GALLERY -->
+			<div class="container-fluid">
+				<div class="row text-center mb-5 mt-3">
+					<div class="col-12">
+						<a class="btn btn-lg btn-info" href="gallery.html">Visit Gallery</a>
+					</div>
+				</div>
+			</div>
+		</main>
 		
     	<script src="https://player.vimeo.com/api/player.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
