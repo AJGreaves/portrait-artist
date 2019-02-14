@@ -154,6 +154,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 tools that you have used to construct this project. For each, provide its name, a link to its 
 official site and a short sentence of why it was used.
 - This project uses HTML5 and CSS programming languages.
+- [Cloud9](https://c9.io) - This developer used **Cloud9** for their IDE while building the website.
 - [BootstrapCDN](https://www.bootstrapcdn.com/)
     - The project uses **Bootstrap4** to simplify the structure of the website and make the website responsive easily.
     - The project also uses BootstrapCDN to provide icons from [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
@@ -163,6 +164,11 @@ official site and a short sentence of why it was used.
     - The project uses **Google fonts** to style the website fonts.
 - [Vimeo](https://vimeo.com) 
     - The project used **Vimeo** to host the promotional video. 
+- [W3C CSS validation](https://jigsaw.w3.org/css-validator/)
+- [W3C Markup Validation]( https://validator.w3.org/)
+    - The developer used **W3C CSS Validation Service** and **W3C  Markup Validation Service** to check the validity of the website code.
+- All external images were stored and linked from a **Wordpress Media library** owned by the artist.
+
 
 ## Testing - STILL TO COMPLETE
 
@@ -212,7 +218,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Media
 - The photos used in this site were obtained from the artist - Anna Gilhespy.
-- Photography about1.jpg and about3.jpg by [Rudi Wells Photography](https://headshots.amsterdam) and obtained from the artist - Anna Gilhespy.
+- Professional photography on images about1.jpg and about3.jpg on the About page by [Rudi Wells Photography](https://headshots.amsterdam) and obtained from the artist - Anna Gilhespy.
 - The video on this website was produced by [Luke Davis](https://about.me/lukedavies) and obtained from the artist - Anna Gilhespy.
 
 ### Code
