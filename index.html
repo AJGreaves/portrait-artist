@@ -4,11 +4,17 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no"  />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta name="description" content="Home page for Anna Gilhespy children's portrait artist">
+		<meta name="keywords" content="Portrait, artist, portrait artist, artist amsterdam, custom, drawing, painting, custom drawing, custom painting, custom portrait, children, kids, child portrait, custom portrait">
+		<meta name="author" content="Anna Gilhespy">
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="/favicon.ico" type="image/x-icon" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/style.css"/>
-		<title>Anna Gilhespy Childrens Portrait Artist Amsterdam</title>
-		<!-- REMINDER: ADD SEO METADATA -->
+		<style>.container-fluid{width: 100%;}</style>
+		<title>Home | Anna Gilhespy Childrens Portrait Artist Amsterdam</title>
+
 	</head>
 	<body>
 		<!-- LOGO AND NAV BAR -->
@@ -16,7 +22,7 @@
 		
 			<!-- LOGO -->
 			<a class="navbar-brand" href="index.html">
-				<img src="assets/images/logo.gif" height="40px"></img>  
+				<img src="assets/images/logo.gif" height="40" alt="AG logo">
 			</a>
 			<button
 				class="navbar-toggler"
@@ -57,93 +63,109 @@
 			</div>
 		</nav> 
 		
-		<!--PADDING BELOW FIXED TOP NAVBAR-->
-		<div class="pagetop-pushdown">
-		</div>
-		
-		<!-- COVER HERO IMAGE HOME -->
-		<div class="hero-img hero-img-home">
-		</div>
-		
-		<!-- HEADING -->
-		<heading class="text-center container-fluid m-1">
-		    <div class="row justify-content-center">
-		        <div class="col-10">
-		            <h1>Anna Gilhespy</h1>
-					<h3>Children's Portrait Artist</h3>
-					<p>Treasure your precious moments forever</p>
-		        </div>
-		    </div>
-		</heading>
-		
-		<!-- EMBEDDED VIDEO BACKGROUND -->
-		<div class="video">
-			<iframe src="https://www.youtube.com/embed/43QiUJTdHWo?controls=1&showinfo=0&rel=0&autoplay=0&loop=1&mute=0" frameborder="0" allowfullscreen></iframe>
-		</div>
-		
-		<!-- SALES PITCH -->
-		<section class="container-fluid">
-			<div class="row justify-content-center my-4 text-center">
-				<div id="p-emphasis" class="col-12">
-					<p>Children grow up so fast, and in the rush, it’s easy to forget the way they used to be.</p>
-					<p>I use traditional methods to make timeless portraits from your photographs.</p>
-					<p>My pencil drawings and oil paintings are made in full consultation with you, and will last for generations.</p>
+		<!-- FULL WIDTH HERO RESPONSIVE VIDEO/IMAGE -->
+		<!-- VIDEO SEE ONLY ON DESKTOP -->
+	    <div class="video-wrapper d-none d-lg-block"> 
+	    	<iframe class="video" src="https://player.vimeo.com/video/317180428?background=1&muted=1&autoplay=1&loop=1&title=0&byline=0&portrait=0">
+	    	</iframe>
+	        <div class="container-fluid video-overlay">
+	            <div class="row">
+	                <div class="col-12 text-white">
+	                    <h1>Anna Gilhespy</h1>
+	        			<h3 class="fontchange-sm">Children's Portrait Artist</h3>
+	        			<p>Treasure your precious moments forever</p>
+	                </div>
+	            </div>
+	        </div> <!--END overlay-->
+	    </div> <!--END video element-->
+	    
+	    <!-- STATIC IMAGE SEE ONLY ON MOBILE AND TABLET -->
+	    <div class="container-fluid p-0 m-0 d-lg-none">
+	    	<div class="row p-0 m-0">
+	    		<div class="col-12 p-0 m-0">
+	    			<figure class="special-hero-home" title="Black and white pencil drawing portrait of a young girl"></figure>
+	    		</div>
+	    		<div class="container-fluid hero-home-overlay">
+		            <div class="row">
+		                <div class="col-12 text-white">
+		                    <h1>Anna Gilhespy</h1>
+		        			<h3 class="fontchange-sm">Children's Portrait Artist</h3>
+		        			<p>Treasure your precious moments forever</p>
+		                </div>
+		            </div>
+		        </div> <!--END overlay-->
+	    	</div>
+	    </div><!--END image element -->
+	    
+	    
+	    <!-- MAIN CONTENT OF HOME PAGE -->
+		<main>
+			
+			<!-- SALES PITCH -->
+			<section class="container-fluid">
+				<div class="row justify-content-center my-4 text-center">
+					<div class="col-12">
+						<h2>Children grow up so fast</h2> 
+						<em id="em-emphasis">In the rush, it’s easy to forget the way they used to be.<br>
+						I use traditional methods to make timeless portraits from your photographs.<br>
+						My pencil drawings and oil paintings are made in full consultation with you, and will last for generations.</em>
+					</div>
+				</div>
+			</section>
+			
+			<!-- TESTIMONIALS -->
+			<section class="container-fluid testimonials text-center">
+				<div class="row">
+					<div class="col my-3">
+						<h3>What my Customers Say...</h3>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="quote col-sm-12 col-md-4 col-lg-3">
+						<blockquote>
+							<p>Anna gave me great advice on a suitable photo for my daughter's portrait, met the deadline 
+							and even delivered the final product directly to my door, but most importantly, she created 
+							a unique drawing of my daughter which really reflects her personality. We've had tonnes of compliments 
+							from friends and adoring family members.</p>
+							<footer>
+							— <cite>Lucie, Amsterdam</cite>
+							</footer>
+						</blockquote>
+					</div>
+					<div class="quote col-sm-12 col-md-4 col-lg-3 d-none d-sm-block">
+						<blockquote>
+							<p>When I saw a sample of Anna’s work. WOW! It took my breath away. 
+							When trying to think of a special and unique gift for my partner, she automatically came to mind. 
+							I couldn’t have asked for a better reaction on his face when he saw the 
+							sketch for the first time. It now has a very proud place in our home and we love showing it off!</p>
+							<footer>
+							— <cite>Elke, Amstelveen</cite>
+							</footer>
+						</blockquote>
+					</div>
+					<div class="quote col-sm-12 col-md-4 col-lg-3">
+						<blockquote>
+							<p>Not only was the artwork spectacular. The delivery was amazingly quick given that it was 
+							ordered during the Christmas rush and Anna went out of her way to deliver some extra, 
+							specially requested products which she had to source for me as well. My husband was delighted 
+							with his gift.</p>
+							<footer>
+							— <cite>Emmy, Amsterdam</cite>
+							</footer>
+						</blockquote>
+					</div>
+				</div>
+			</section>
+			
+			<!-- BUTTON: VISIT GALLERY -->
+			<div class="container-fluid">
+				<div class="row text-center mb-5 mt-3">
+					<div class="col-12">
+						<a class="btn btn-lg btn-info" href="gallery.html">Visit Gallery</a>
+					</div>
 				</div>
 			</div>
-		</section>
-		
-		<!-- TESTIMONIALS -->
-		<section class="container-fluid testimonials text-center">
-			<div class="row">
-				<div class="col my-3">
-					<h2>What my Customers Say...</h2>
-				</div>
-			</div>
-			<div class="row justify-content-center">
-				<div class="quote col-sm-12 col-md-4 col-lg-3">
-					<blockquote>
-						<p>Anna gave me great advice on a suitable photo for my daughter's portrait, met the deadline 
-						and even delivered the final product directly to my door, but most importantly, she created 
-						a unique drawing of my daughter which really reflects her personality. We've had tonnes of compliments 
-						from friends and adoring family members.</p>
-						<footer>
-						— <cite>Lucie, Amsterdam</cite>
-						</footer>
-					</blockquote>
-				</div>
-				<div class="quote col-sm-12 col-md-4 col-lg-3 d-none d-sm-block">
-					<blockquote>
-						<p>When I saw a sample of Anna’s work. WOW! It took my breath away. 
-						When trying to think of a special and unique gift for my partner, she automatically came to mind. 
-						I couldn’t have asked for a better reaction on his face when he saw the 
-						sketch for the first time. It now has a very proud place in our home and we love showing it off!</p>
-						<footer>
-						— <cite>Elke, Amstelveen</cite>
-						</footer>
-					</blockquote>
-				</div>
-				<div class="quote col-sm-12 col-md-4 col-lg-3">
-					<blockquote>
-						<p>Not only was the artwork spectacular. The delivery was amazingly quick given that it was 
-						ordered during the Christmas rush and Anna went out of her way to deliver some extra, 
-						specially requested products which she had to source for me as well. My husband was delighted 
-						with his gift.</p>
-						<footer>
-						— <cite>Emmy, Amsterdam</cite>
-						</footer>
-					</blockquote>
-				</div>
-			</div>
-		</section>
-		
-		<!-- BUTTON: VISIT GALLERY -->
-		<div class="container-fluid">
-			<div class="row text-center mb-5 mt-3">
-				<div class="col-12">
-					<a class="btn btn-lg btn-info" href="gallery.html">Visit Gallery</a>
-				</div>
-			</div>
-		</div>
+		</main>
 		
 		<!-- FOOTER -->
 		<footer class="page-footer bg-secondary text-white">
@@ -152,19 +174,19 @@
 					<div class="col-md-12 py-3">
 						<!-- SOCIAL ICONS/LINKS -->
 						<div class="mb-1 flex-centre text-center text-shadow-2">
-							<a class="ic-fb" href="http://facebook.com/annagilhespyart">
+							<a class="ic-fb" href="https://facebook.com/annagilhespyart">
 								<i class="fab fa-facebook fa-lg mr-md-5 mr-3 fa-2x"></i>
 							</a>
-							<a class="ic-pin" href="http://pinterest.com/annagilhespy">
+							<a class="ic-pin" href="https://pinterest.com/annagilhespy">
 								<i class="fab fa-pinterest fa-lg mr-md-5 mr-3 fa-2x"></i>
 							</a>
-							<a class="ic-ins" href="http://instagram.com/annagilhespy">
+							<a class="ic-ins" href="https://instagram.com/annagilhespy">
 								<i class="fab fa-instagram fa-lg mr-md-5 mr-3 fa-2x"></i>
 							</a>
-							<a class="ic-twi" href="http://twitter.com/annagilhespy">
+							<a class="ic-twi" href="https://twitter.com/annagilhespy">
 								<i class="fab fa-twitter fa-lg mr-md-5 mr-3 fa-2x"></i>
 							</a>
-							<a class="ic-fl" href="http://flickr.com/people/annagilhespy">
+							<a class="ic-fl" href="https://flickr.com/people/annagilhespy">
 								<i class="fab fa-flickr fa-lg fa-2x"></i>
 							</a>
 						</div>
@@ -177,7 +199,7 @@
 			</div>	
 		</footer>
 		
-		
+    	<script src="https://player.vimeo.com/api/player.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>

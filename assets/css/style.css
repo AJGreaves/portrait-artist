@@ -1,4 +1,4 @@
-/*------------FONTS------------*/
+/*------------ FONTS ------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC|Tangerine|Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
@@ -15,15 +15,16 @@ p, ol{
     font-family: 'Roboto', sans-serif;
 }
 
-section #p-emphasis p,
-#p-emphasis p{
+em #p-emphasis p,
+#em-emphasis{
     font-family: 'Noto Serif SC', serif; 
     font-weight: 500;
     font-size: 18px;
+    font-style: normal;
 }
 
 
-/*------------LINKS------------*/
+/*------------ LINKS ------------*/
 
 a{
     color: #6c757d;
@@ -35,14 +36,7 @@ a:hover{
 }
 
 
-/*------------BORDERS------------*/
-
-.testimonials{
-    border-top: 1px solid #000;
-}
-
-
-/*------------NAVIGATION------------*/
+/*------------ NAVIGATION ------------*/
 
 .navbar{
     box-shadow: 0px 8px 10px 1px rgba(0,0,0,0.2);
@@ -54,7 +48,60 @@ a:hover{
     height: 66px;
 }
 
-/*------------IMAGES------------*/
+
+/*------------ CONTAINERS ------------*/
+
+.order-steps-container{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+/*------------ BORDERS & MARGINS ------------*/
+
+.testimonials{
+    border-top: 1px solid #000;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.container-fluid{
+    width: 99%;
+}
+
+/*------------ EMBEDDED VIDEO BACKGROUND & OVERLAY ------------*/
+
+.video-wrapper{
+    padding: 56.25% 0 0 0;
+    position: relative;
+}
+
+.video{
+    position:absolute;
+    border-style: none;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index: -99;
+}
+
+.video-overlay {
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom:20%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    line-height: 1.5;
+    text-align: center;
+    z-index: -98;
+    }
+    
+
+/*------------ IMAGES ------------*/
 /*HERO IMAGES*/
 
 .hero-img{
@@ -64,13 +111,8 @@ a:hover{
     position: relative;
 }
 
-.hero-img-home{
-    background-image: url("../images/herohome.jpg");
-    background-position: center 25%;
-}
-
 .hero-img-about{
-    background-image: url("../images/heroabout.jpg");
+    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/heroabout.jpg");
     background-position: center 35%;
 }
 
@@ -80,21 +122,53 @@ a:hover{
 }
 
 .hero-img-pricing{
-    background-image: url("../images/heropricing.jpg");
+    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/heropricing.jpg");
     background-position: center 60%;
 }
 
 .hero-img-order{
-    background-image: url("../images/heroorder.jpg");
+    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/heroorder.jpg");
     background-position: center 55%;
 }
 
 .hero-img-contact{
-    background-image: url("../images/herocontact.jpg");
+    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/herocontact.jpg");
     background-position: center 35%;
 }
 
-/*ABOUT PAGE*/
+.hero-img-gallery{
+    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/herogallery.jpg");
+    background-position: center 55%;
+}
+
+/*HOME PAGE IMAGES & OVERLAY*/
+
+.hero-img-wrapper{
+    position: relative;
+}
+
+.special-hero-home{
+    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/herohome.jpg");
+    position: relative;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 25%;
+}
+
+.hero-home-overlay{
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom:33%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    line-height: 1.5;
+    text-align: center;
+    }
+    
+
+/*ABOUT PAGE IMAGES*/
 
 .about-img{
     height: 300px;
@@ -105,39 +179,35 @@ a:hover{
 }
 
 .about-img-1{
-    background-image: url("../images/about1.jpg");
+    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/about1.jpg");
 }
 
 .about-img-2{
-    background-image: url("../images/about2.jpg");
+    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/about2.jpg");
 }
 
 .about-img-3{
-    background-image: url("../images/about3.jpg");
+    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/about3.jpg");
     background-position: center 25%;
 }
 
+/*GALLERY PAGE IMAGES*/
 
-/*------------EMBEDDED VIDEO BACKGROUND------------
-Original code credit: https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
-
-.video {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 0px;
-	height: 0;
+.gallery-thumbnail{ /*original code credit: https://codepen.io/sdthornton/pen/wBZdXq */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
-.video iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+.gallery-thumbnail:hover {
+  box-shadow: 0 3px 9px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.22);
 }
 
+.gallery-img img{
+    width: 100%;
+}
+    
 
-/*------------FOOTER------------*/
+/*------------ FOOTER ------------*/
 
 .text-shadow-2{
     text-shadow: 2px 2px rgba(0,0,0,0.5);
@@ -148,7 +218,7 @@ Original code credit: https://css-tricks.com/NetMag/FluidWidthVideo/Article-Flui
 }
 
 
-/*------------SOCIAL ICONS------------*/
+/*------------ SOCIAL ICONS ------------*/
 
 .fab{
   color: #ffffff; 
@@ -166,11 +236,27 @@ Original code credit: https://css-tricks.com/NetMag/FluidWidthVideo/Article-Flui
 .fa-flickr:hover {color: #ff0084;}
 
 
-/*------------MEDIA QUERIES------------*/
+/*------------ MEDIA QUERIES ------------*/
 
-@media (min-aspect-ratio: 16/9) {
-  .video-foreground { height: 300%; top: -100%; }
+@media screen and (max-width: 768px){
+    .fontchange-sm{
+        font-size: 20px;
+    }
 }
-@media (max-aspect-ratio: 16/9) {
-  .video-foreground { width: 300%; left: -100%; }
-}
+
+@media screen and (max-width: 992px) { /*phones and tablets*/
+	.gallery-img {
+		display: flex;
+		justify-content: center;
+		max-width: 50%;
+		padding: 10px;
+	}
+} 
+
+@media screen and (min-width: 993px) { /*desktops and XL screens*/
+	.gallery-row {
+		margin-top: 2rem;
+	}
+} 
+
+
