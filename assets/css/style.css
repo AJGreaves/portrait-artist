@@ -220,34 +220,12 @@ a:hover{
 		max-width: 50%;
 		padding: 10px;
 	}
-	
-	.overlay {
-    background: rgba(0,0,0,0.5);
-    position: absolute;
-    bottom: 30%;
-    left: 0;
-    right: 0;
-    width: 100%;
-    line-height: 1.5;
-    text-align: center;
-    }
 } 
 
 @media screen and (min-width: 993px) { /*desktops and XL screens*/
 	.gallery-row {
 		margin-top: 2rem;
 	}
-	
-	.overlay {
-    background: rgba(0,0,0,0.5);
-    position: absolute;
-    bottom: 10%;
-    left: 0;
-    right: 0;
-    width: 100%;
-    line-height: 1.5;
-    text-align: center;
-    }
 } 
 
 
