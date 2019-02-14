@@ -77,10 +77,10 @@ a:hover{
     position: relative;
 }
 
-.hero-img-home{
+/*.hero-img-home{
     background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/herohome.jpg");
     background-position: center 25%;
-}
+}*/
 
 .hero-img-about{
     background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/heroabout.jpg");
@@ -193,7 +193,7 @@ a:hover{
     z-index: -99;
 }
 
-.overlay {
+.video-overlay {
     background: rgba(0,0,0,0.5);
     position: absolute;
     bottom:20%;
@@ -203,6 +203,30 @@ a:hover{
     line-height: 1.5;
     text-align: center;
     z-index: -98;
+    }
+
+.hero-img-wrapper{
+    position: relative;
+}
+
+.special-hero-home{
+    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/herohome.jpg");
+    position: relative;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 25%;
+}
+
+.img-overlay{
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom:20%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    line-height: 1.5;
+    text-align: center;
     }
 
 /*------------ MEDIA QUERIES ------------*/
