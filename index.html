@@ -57,32 +57,44 @@
 			</div>
 		</nav> 
 		
-		<!--PADDING BELOW FIXED TOP NAVBAR-->
-		<div class="pagetop-pushdown">
-		</div>
-		
-		<!-- COVER HERO IMAGE HOME -->
-		<figure class="hero-img hero-img-home" title="Black and white pencil drawing close-up portrait of a young girl">
-		</figure>
-		
-		<!-- HEADER -->
-		<header class="text-center container-fluid m-1">
-		    <div class="row justify-content-center">
-		        <div class="col-10">
-		            <h1>Anna Gilhespy</h1>
-					<h3>Children's Portrait Artist</h3>
-					<p>Treasure your precious moments forever</p>
-		        </div>
-		    </div>
-		</header>
-		
-		<!-- MAIN CONTENT OF HOME PAGE -->
+		<!-- FULL WIDTH HERO RESPONSIVE VIDEO/IMAGE -->
+		<!-- VIDEO SEE ONLY ON DESKTOP -->
+	    <div class="video-wrapper d-none d-lg-block"> 
+	    	<iframe class="video" src="https://player.vimeo.com/video/317180428?background=1&muted=1&autoplay=1&loop=1&title=0&byline=0&portrait=0" 
+	    	frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+	    	</iframe>
+	        <div class="container-fluid video-overlay">
+	            <div class="row">
+	                <div class="col-12 text-white">
+	                    <h1>Anna Gilhespy</h1>
+	        			<h3 class="fontchange-sm">Children's Portrait Artist</h3>
+	        			<p>Treasure your precious moments forever</p>
+	                </div>
+	            </div>
+	        </div> <!--END overlay-->
+	    </div> <!--END video element-->
+	    
+	    <!-- STATIC IMAGE SEE ONLY ON MOBILE AND TABLET -->
+	    <div class="container-fluid p-0 m-0 d-lg-none">
+	    	<div class="row p-0 m-0">
+	    		<div class="col-12 p-0 m-0">
+	    			<figure class="special-hero-home" title="hero image"></figure>
+	    		</div>
+	    		<div class="container-fluid hero-home-overlay">
+		            <div class="row">
+		                <div class="col-12 text-white">
+		                    <h1>Anna Gilhespy</h1>
+		        			<h3 class="fontchange-sm">Children's Portrait Artist</h3>
+		        			<p>Treasure your precious moments forever</p>
+		                </div>
+		            </div>
+		        </div> <!--END overlay-->
+	    	</div>
+	    </div><!--END image element -->
+	    
+	    
+	    <!-- MAIN CONTENT OF HOME PAGE -->
 		<main>
-			
-			<!-- EMBEDDED VIDEO BACKGROUND -->
-			<div class="video">
-				<iframe src="https://www.youtube.com/embed/43QiUJTdHWo?controls=1&showinfo=0&rel=0&autoplay=0&loop=1&mute=0" frameborder="0" allowfullscreen></iframe>
-			</div>
 			
 			<!-- SALES PITCH -->
 			<section class="container-fluid">
@@ -148,6 +160,7 @@
 				</div>
 			</div>
 		</main>
+		
 		<!-- FOOTER -->
 		<footer class="page-footer bg-secondary text-white">
 			<div class="container">
@@ -180,7 +193,7 @@
 			</div>	
 		</footer>
 		
-		
+    	<script src="https://player.vimeo.com/api/player.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
