@@ -1,0 +1,6 @@
+/* fixing border problems caused by .container-fluid{width:99%} 
+which was used on all other pages to fix overflow*/
+
+.container-fluid{
+    width: 100%;
+}
