@@ -1,6 +1,6 @@
 # Portrait Artist Website 
 
-[Click to view in GitHub Pages](https://github.com/AJGreaves/portrait-artist)
+[View website in GitHub Pages](https://github.com/AJGreaves/portrait-artist)
 
 Comprehensive website for a traditional portrait artist based in Amsterdam, The Netherlands. 
 Website features a promotional video, testimonials, a gallery of the artist's work, 
@@ -173,46 +173,9 @@ official site and a short sentence of why it was used.
 - All external images are stored and linked from a **Wordpress Media library** owned by the artist.
 
 
-## Testing - STILL TO COMPLETE
+## Testing 
 
-- [W3C CSS validation](https://jigsaw.w3.org/css-validator/)
-- [W3C Markup Validation]( https://validator.w3.org/)
-    - The developer used **W3C CSS Validation Service** and **W3C  Markup Validation Service** to check the validity of the website code.
-
-### Home Page:
-
-1. Navigation bar:
-    1. Go to the "Home" page
-    2. Change the screen size from from desktop to tablet to verify that the navigation bar is responsive and switches from in line menu to burger icon dropdown menu at the appropriate place.
-    3. When checking responsiveness of navbar, verify that there is no overflow causing ugly size changes to menu items.
-    2. Hover over the logo in the navigation bar and verify that the alt text appears.
-    3. Click on the logo in the navigation bar and verify that it takes us to the home page.
-
-In this section, you need to convince the assessor that you have conducted enough testing 
-to legitimately believe that the site works well. Essentially, in this part you will want 
-to go over all of your user stories from the UX section and ensure that they all work as 
-intended, with the project providing an easy and straightforward way for the users to achieve
-their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief
-explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide 
-as much detail as is relevant. A particularly useful form for describing your testing process 
-is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered 
-during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Testing information in [testing.md file](/Testing.md)
 
 ## Deployment - STILL TO COMPLETE
 
