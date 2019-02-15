@@ -225,8 +225,10 @@ a:hover{
 /*------------ SOCIAL ICONS ------------*/
 
 .fab{
-  color: #ffffff; 
-  transition: all 0.2s ease-in-out 0.2s;
+    color: #ffffff; 
+    transition: all 0.2s ease-in-out 0.2s;
+    -moz-transition: all 0.2s ease-in-out 0.2s;
+    -webkit-transition: all 0.2s ease-in-out 0.2s;
 }
 
 .fab:hover{
