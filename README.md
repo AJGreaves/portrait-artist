@@ -96,6 +96,9 @@ At the bottom of the page (above the footer) are two **call to action buttons**:
 The Gallery page is laid out in **columns of thumbnail images**, 2 columns wide for mobile devices, 3 columns wide for tablets and 6 columns wide for desktop. 
 Each thumbnail is square and features a drawing or painting by the artist. 
 
+Note: The design choice for 2 columns wide gallery preview on mobile is to encourage users to click the thumbnail and view the image in full. 
+Viewing the images in full is much preferred by the artist to looking at images restricted by margins and padding. The thumbnails are still large enough to be easily clickable on mobile. 
+
 Each can be clicked to open a **fancybox** window to view the artwork in detail, 
 to move on to the next image, view the previous one, or return to the gallery page.
 

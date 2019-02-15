@@ -76,6 +76,30 @@
     2. Confirm that footer code is identical on all html pages.
 
 
+### Gallery Page:
+
+1. Navigation bar: 
+    1. Navbar code is identical on all html pages. Testing already completed.
+
+2. Hero image:
+    1. Repeat verification steps done for hero image on about page.
+    
+3. Gallery:
+    1. Hover over each gallery thumbnail and confirm the hover animation works as expected.
+    2. Check code to confirm that each gallery thumbnail has a descriptive alt attribute. _titles were deliberately *not* added here because they ruin the clean look of the gallery page. Because of the alt attribute the page is still navagable for visually impared users_
+    3. Click on each gallery thumbnail and confirm that the Fancybox gallery modal activates. 
+    4. In the gallery modal test click forwards and backwards, play and pause functions and confirm they all work as expected. 
+    5. Reduce and expand width of window to verify that each row of gallery images behave and centre the way expected, and that the grid of images looks good on all device widths.
+
+4. Call to action buttons: 
+    1. Repeat verification steps done for call to action buttons on about page.
+    
+5. Footer:
+    1. Footer code is identical on all html pages. Testing already completed.
+
+
+
+
 ## Further testing: 
 
 1. Asked fellow students, friends and family to look at the site on their devices and report any issues they find. _margins were adjusted for navigation bar after feedback that "request quote" button was too close to nav menu on some devices_
