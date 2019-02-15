@@ -51,7 +51,7 @@
 ### About Page:
 
 1. Navigation bar: 
-    1. Repeat verification steps done for navbar on home page.
+    1. Repeat verification steps done for navbar on Home page.
     2. Confirm that navbar code is identical on all html pages. 
 
 2. Hero image:
@@ -72,7 +72,7 @@
     4. Confirm that the two buttons move to stacked on top of each other for mobile devices and display next to each other for larger screens.
 
 6. Footer:
-    1. Repeat verification steps done for footer on home page.
+    1. Repeat verification steps done for footer on Home page.
     2. Confirm that footer code is identical on all html pages.
 
 
@@ -82,7 +82,7 @@
     1. Navbar code is identical on all html pages. Testing already completed.
 
 2. Hero image:
-    1. Repeat verification steps done for hero image on about page.
+    1. Repeat verification steps done for hero image on About page.
     
 3. Gallery:
     1. Hover over each gallery thumbnail and confirm the hover animation works as expected.
@@ -92,7 +92,7 @@
     5. Reduce and expand width of window to verify that each row of gallery images behave and centre the way expected, and that the grid of images looks good on all device widths.
 
 4. Call to action buttons: 
-    1. Repeat verification steps done for call to action buttons on about page.
+    1. Repeat verification steps done for call to action buttons on About page.
     
 5. Footer:
     1. Footer code is identical on all html pages. Testing already completed.
@@ -104,7 +104,7 @@
     1. Navbar code is identical on all html pages. Testing already completed.
 
 2. Hero image:
-    1. Repeat verification steps done for hero image on about page.
+    1. Repeat verification steps done for hero image on About page.
 
 3. Pricing tables: 
     1. Reduce and expand width of window to verify that each table responds in the way expected, they display next to each other on desktop, but stacked on top of each other on mobile and tablet.
@@ -114,10 +114,21 @@
     1. Reduce and expand width of window to verify that the small print text behaves and centres the way expected, and that it looks good on all device widths.
     
 5. Call to action button: 
-    1. Repeat verification steps done for call to action button on home page.
+    1. Repeat verification steps done for call to action button on Home page.
     
 6. Footer:
     1. Footer code is identical on all html pages. Testing already completed.
+
+### How to Order Page:
+
+1. Navigation bar: 
+    1. Navbar code is identical on all html pages. Testing already completed.
+
+2. Hero image:
+    1. Repeat verification steps done for hero image on About page.
+
+3. Steps to Order Section: 
+    1. Reduce and expand width of window to verify that the steps display the way expected, and that they look good on all device widths.
 
 ## Further testing: 
 
