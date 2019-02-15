@@ -1,4 +1,4 @@
-# Portrait Artist Website annagilhespy.com
+# Portrait Artist Website [Click to view GitHub Pages](https://github.com/AJGreaves/portrait-artist)
 
 Comprehensive website for a traditional portrait artist based in Amsterdam, The Netherlands. 
 Website features a promotional video, testimonials, a gallery of the artist's work, 
@@ -227,8 +227,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The video on this website was produced by [Luke Davis](https://about.me/lukedavies) and obtained from the artist - Anna Gilhespy.
 
 ### Code
-- Code for shadows and hover responsiveness of gallery images was originally taken from [Material Design Box Shadows| A Pen By Samuel Thornton](https://codepen.io/sdthornton/pen/wBZdXq) and then edited.
-- 
+- CSS code for shadows and hover responsiveness of gallery images was originally taken from [Material Design Box Shadows| A Pen By Samuel Thornton](https://codepen.io/sdthornton/pen/wBZdXq) and then edited.
+- CSS code for overlays on index.html page originally taken from [FullScreen YouTube Video Background In Pure CSS](https://codepen.io/dudleystorey/pen/PZyMrd])
 
 ### Acknowledgements
 
