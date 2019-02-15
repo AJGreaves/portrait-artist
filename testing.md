@@ -4,7 +4,7 @@
 
 [View website in GitHub Pages](https://github.com/AJGreaves/portrait-artist)
 
-## Testing - STILL TO COMPLETE
+## Testing
 
 - [W3C CSS validation](https://jigsaw.w3.org/css-validator/)
 - [W3C Markup Validation]( https://validator.w3.org/)
@@ -14,10 +14,10 @@
 
 Most common path through the website: 
 - Home > Gallery > Pricing > How to Order > Contact 
-Each of these pages points clearly to the next one with a call to action button. In some places the customer may have a different question in their mind, so a second button is also provided. 
+- Each of these pages points clearly to the next one with a call to action button. In some places the customer may have a different question in their mind, so a second button is also provided. 
 
-The About page is not nessaserily part of the flow of the site for users, but it has been included 
-to offer infomation about the artist for those who are curious about her. The information here is kept short as to not overload the user. 
+The About page is not necessarily part of the flow of the site for users, but it has been included 
+to offer information about the artist for those who are curious about her. The information here is kept short as to not overload the user. 
 
 Some pages offer two possible paths in their call to action buttons: 
 - From About > Gallery OR How to Order
@@ -31,34 +31,34 @@ Some pages offer two possible paths in their call to action buttons:
     3. The home page call to action button leads the client through the gallery.
     
 2. As a new visitor to the website, I want view this artist's gallery, and view their work in detail so I can decide if I want to commission their work. 
-    1. At the bottom of the Home page and About page page there is a clear call to action button leading the visitor to the gallery.
-    2. A clearly labeled Gallery page is easy to find in the navigation on every page.. 
+    1. At the bottom of the Home page and About page there is a clear call to action button leading the visitor to the gallery.
+    2. A clearly labelled Gallery page is easy to find in the navigation on every page.. 
     
 3. As a visitor to the website, I am curious to know more about the artist, so I can feel I connect with her as a person.
-    1. A clearly labeled How to About page is easy to find in the navigation on every page.. 
+    1. A clearly labelled  How to About page is easy to find in the navigation on every page.. 
     2. The About page contains photos of the artist in her studio, and short but compelling text about what the artist enjoys about her work.
 
 4. As a potential client, I want to know what past clients thought of their artwork and the service they received.
     1. On the home page, testimonials from past clients are easy to find and to read.
 
 5. As a potential client, I want to view expected prices for a portrait, so I can decide if it is within my budget to order. 
-    1. A clearly labeled pricing page is easy to find in the navigation on every page.. 
+    1. A clearly labelled  pricing page is easy to find in the navigation on every page.. 
     2. Once the visitor to the website has already been led by call to action buttons from the Home page, and through to the Gallery, they are then led to the Pricing page.
     
 6. As an interested client, I want to understand the ordering process, so I know what steps to take next. 
-    1. A clearly labeled How to Order page is easy to find in the navigation on every page. 
+    1. A clearly labelled  How to Order page is easy to find in the navigation on every page. 
     2. Once the visitor to the website has already been led by call to action buttons from the Home page, and through to the Gallery, and Pricing page, they are then led to the How to Order page.
-    3. The How to Order page clearly and intuitvely explains the steps involved in placing an order, using icons to add another level of clear communication to the explanation.
+    3. The How to Order page clearly and intuitively explains the steps involved in placing an order, using icons to add another level of clear communication to the explanation.
     4. At the bottom of the How to Order page, the first step in ordering is clearly marked as a call to action button. Which leads to the contact page.
 
 7. As an interested client, I want an easy to fill in contact form, so I can make contact with the artist and place my order. 
-    1. A clearly labeled contact page is easy to find in the website navigation on every page.
+    1. A clearly labelled  contact page is easy to find in the website navigation on every page.
 
 8. As an interested observer and/or potential client, I want to follow the artist on social media, so I can keep up with her latest news. 
     1. 5 social media icons can be found in the footer on every page of the website.
     
 9. As a returning visitor to the website, who has already decided to contact the artist, I want to be able to request a quote easily.
-    1. There is a clearly marked "Request quote" button in the navigation bar, highlighed as a button so that it stands out from all the other menu items. It displays in the top right of desktop and tablet screens, and at the bottom of the dropdown menu on mobiles.
+    1. There is a clearly marked "Request quote" button in the navigation bar, highlighted as a button so that it stands out from all the other menu items. It displays in the top right of desktop and tablet screens, and at the bottom of the dropdown menu on mobiles.
 
 
 ### Manual (logical) testing of all elements and functionality on every page.
@@ -67,14 +67,14 @@ Some pages offer two possible paths in their call to action buttons:
 
 1. Navigation bar:
     1. Go to the "Home" page from a desktop.
-    2. Change the screen size from from desktop to tablet to verify that the navigation bar is responsive and switches from in line menu to burger icon dropdown menu at the appropriate place.
+    2. Change the screen size from desktop to tablet to verify that the navigation bar is responsive and switches from in line menu to burger icon dropdown menu at the appropriate place.
     3. When checking responsiveness of navbar, verify that there is no overflow causing ugly size changes to menu items. _During testing there were overflow problems here. This was fixed by reducing size of the button and logo margins_
     4. Hover over the logo in the navigation bar and verify that the alt text appears. _During testing this did not happen, so I added a title attribute to the logo to fix_
     5. Click on the logo in the navigation bar and verify that it links to the home page. 
     6. Click on each navigation menu item and verify that it links to the correct page. 
     7. Hover over the "request quote" button and verify the hover colour change works as expected.
     8. Click on the "request quote" button and verify that it links to the contact page. 
-    9. Change screen size to small and click burger icon, verify that the menu drops down and that the menu text is centered.
+    9. Change screen size to small and click burger icon, verify that the menu drops down and that the menu text is centred.
     10. Repeat verification of functionality and responsiveness on my mobile phone and tablet.
 
 2. Hero image / video:
@@ -141,7 +141,7 @@ Some pages offer two possible paths in their call to action buttons:
     
 3. Gallery:
     1. Hover over each gallery thumbnail and confirm the hover animation works as expected.
-    2. Check code to confirm that each gallery thumbnail has a descriptive alt attribute. _titles were deliberately *not* added here because they ruin the clean look of the gallery page. Because of the alt attribute the page is still navagable for visually impared users_
+    2. Check code to confirm that each gallery thumbnail has a descriptive alt attribute. _Titles were deliberately *not* added here because they ruin the clean look of the gallery page. Because of the alt attribute the page is still navigable for visually impaired users_
     3. Click on each gallery thumbnail and confirm that the Fancybox gallery modal activates. 
     4. In the gallery modal test click forwards and backwards, play and pause functions and confirm they all work as expected. 
     5. Reduce and expand width of window to verify that each row of gallery images behave and centre the way expected, and that the grid of images looks good on all device widths.
@@ -226,29 +226,3 @@ Some pages offer two possible paths in their call to action buttons:
 
 1. Asked fellow students, friends and family to look at the site on their devices and report any issues they find. _margins were adjusted for navigation bar after feedback that "request quote" button was too close to nav menu on some devices_
 2. I viewed my website on several devices at a local tech store, no further issues found.
-
-In this section, you need to convince the assessor that you have conducted enough testing 
-to legitimately believe that the site works well. Essentially, in this part you will want 
-to go over all of your user stories from the UX section and ensure that they all work as 
-intended, with the project providing an easy and straightforward way for the users to achieve
-their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief
-explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide 
-as much detail as is relevant. A particularly useful form for describing your testing process 
-is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered 
-during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
