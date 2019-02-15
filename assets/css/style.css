@@ -45,12 +45,12 @@ a:hover{
     border-top: 1px solid #000;
 }
 
-.row {
+.row{ /* suggested by mentor to get rid of overflow on pages*/
     margin-left: 0;
     margin-right: 0;
 }
 
-.container-fluid{
+.container-fluid{ /* suggested by mentor to get rid of overflow on pages*/
     width: 99%;
 }
 
@@ -78,7 +78,7 @@ a:hover{
 /*------------ EMBEDDED VIDEO BACKGROUND & OVERLAY ------------*/
 
 .video-wrapper{
-    padding: 56.25% 0 0 0;
+    padding: 56.25% 0 0 0; /* this line only - original code credit: https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
     position: relative;
 }
 
@@ -92,7 +92,7 @@ a:hover{
     z-index: -99;
 }
 
-.video-overlay {
+.video-overlay{ /*original code credit: "FullScreen YouTube Video Background In Pure CSS" https://codepen.io/dudleystorey/pen/PZyMrd */
     background: rgba(0,0,0,0.5);
     position: absolute;
     bottom:20%;
@@ -159,7 +159,7 @@ a:hover{
     background-position: center 25%;
 }
 
-.hero-home-overlay {
+.hero-home-overlay{
     background: rgba(0,0,0,0.5);
     position: absolute;
     bottom:33%;
@@ -173,7 +173,7 @@ a:hover{
 
 /*ABOUT PAGE IMAGES*/
 
-.about-img {
+.about-img{
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -229,20 +229,34 @@ a:hover{
   transition: all 0.2s ease-in-out 0.2s;
 }
 
-.fab:hover {
+.fab:hover{
     transform: scale(1.4);
 }
   
-.fa-instagram:hover {color: #fbad50;}
-.fa-pinterest:hover {color: #c8232c;}
-.fa-facebook:hover {color: #3b5998;}
-.fa-twitter:hover {color: #38A1F3;}
-.fa-flickr:hover {color: #ff0084;}
+.fa-instagram:hover{
+    color: #fbad50;
+} 
+
+.fa-pinterest:hover{
+    color: #c8232c;
+}
+
+.fa-facebook:hover{
+    color: #3b5998;
+}
+
+.fa-twitter:hover{
+    color: #38A1F3;
+}
+
+.fa-flickr:hover{
+    color: #ff0084;
+}
 
 
 /*------------ MEDIA QUERIES ------------*/
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px){ /*phones*/
     .fontchange-sm{
         font-size: 20px;
     }
