@@ -8,6 +8,11 @@ an about page, pricing tables, a clear step-by-step guide to ordering and a cont
 The primary goal of the website is to lead potential customers to making first contact with the
 artist via the contact page. 
 
+An important note on the longer path to buy is that unlike most B2C websites - which are emotion driven to impulse buy and have the fewest number of steps to the point of purchase -
+ordering a custom portrait is an expensive and significant purchase, and one that comes with the need for more information than the average B2C purchase. 
+This website tries to address the needs of the customer to find all the information that they need to make a decision to contact the artist, 
+while breaking the information up into small easy to understand sections, and making the steps to the point of contact as clear and easy to follow as possible.
+
 The business goals of this website are:
 * Build brand awareness.
 * Provide high quality examples of the artist's drawings and paintings.
@@ -43,14 +48,14 @@ The customer goals of this website are:
     * Guiding them to the goal of the website - to fill out the contact form.
 
 ##### Client stories
-- As a new visitor to the website, I want to easily navigate the site, so I can find what I need efficiently. 
-- As a new visitor to the website, I want view this artist's gallery, and view their work in detail so I can decide if I want to commission their work. 
-- As a new visitor to the website, I want learn more about the artist, so I can feel I connect with her as a person.
-- As a potential client, I want to know what past clients thought of their artwork and the service they received.
-- As a potential client, I want to view expected prices for a portrait, so I can decide if it is within my budget to order. 
-- As an interested client, I want to understand the ordering process, so I know what steps to take next. 
-- As an interested client, I want an easy to fill in contact form, so I can make contact with the artist and place my order. 
-- As an interested observer and/or potential client, I want to follow the artist on social media, so I can keep up with her latest news. 
+1. As a new visitor to the website, I want to easily navigate the site, so I can find what I need efficiently. 
+2. As a new visitor to the website, I want view this artist's gallery, and view their work in detail so I can decide if I want to commission their work. 
+3. As a new visitor to the website, I want learn more about the artist, so I can feel I connect with her as a person.
+4. As a potential client, I want to know what past clients thought of their artwork and the service they received.
+5. As a potential client, I want to view expected prices for a portrait, so I can decide if it is within my budget to order. 
+6. As an interested client, I want to understand the ordering process, so I know what steps to take next. 
+7. As an interested client, I want an easy to fill in contact form, so I can make contact with the artist and place my order. 
+8. As an interested observer and/or potential client, I want to follow the artist on social media, so I can keep up with her latest news. 
 
 ##### Wireframe mockups: 
 

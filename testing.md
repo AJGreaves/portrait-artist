@@ -10,7 +10,37 @@
 - [W3C Markup Validation]( https://validator.w3.org/)
     - The developer used **W3C CSS Validation Service** and **W3C  Markup Validation Service** to check the validity of the website code.
 
-### Home Page:
+#### Home Page:
+
+### Client stories testing:
+
+Most common path through the website: 
+- Home > Gallery > Pricing > How to Order > Contact 
+Each of these pages points clearly to the next one with a call to action button, but in some places the customer may have a different question in their mind, so a second button is also provided. 
+
+Some pages offer two possible paths: 
+- From Gallery > Pricing OR How to Order
+- From About > Gallery OR How to Order
+
+*IMPORTANT* 
+
+1. As a new visitor to the website, I want to easily navigate the site, so I can find what I need efficiently. 
+    1. No matter what page the new visitor lands on, they can easily find and use the navigation bar. 
+    2. The logo image always leads back to the home page (the starting place for most client stories).
+    3. The home page call to action button leads the client through the 
+    
+2. As a new visitor to the website, I want view this artist's gallery, and view their work in detail so I can decide if I want to commission their work. 
+    1. At the bott
+    2. 
+    
+3. As a new visitor to the website, I want learn more about the artist, so I can feel I connect with her as a person.
+4. As a potential client, I want to know what past clients thought of their artwork and the service they received.
+5. As a potential client, I want to view expected prices for a portrait, so I can decide if it is within my budget to order. 
+6. As an interested client, I want to understand the ordering process, so I know what steps to take next. 
+7. As an interested client, I want an easy to fill in contact form, so I can make contact with the artist and place my order. 
+8. As an interested observer and/or potential client, I want to follow the artist on social media, so I can keep up with her latest news. 
+
+### Manual (logical) testing of all elements and functionality on every page.
 
 1. Navigation bar:
     1. Go to the "Home" page from a desktop.
@@ -48,7 +78,7 @@
 7. Review all functionality and responsiveness on my mobile phone and tablet.
 
 
-### About Page:
+#### About Page:
 
 1. Navigation bar: 
     1. Repeat verification steps done for navbar on Home page.
@@ -76,7 +106,7 @@
     2. Confirm that footer code is identical on all html pages.
 
 
-### Gallery Page:
+#### Gallery Page:
 
 1. Navigation bar: 
     1. Navbar code is identical on all html pages. Testing already completed.
@@ -98,7 +128,7 @@
     1. Footer code is identical on all html pages. Testing already completed.
 
 
-### Pricing Page:
+#### Pricing Page:
 
 1. Navigation bar: 
     1. Navbar code is identical on all html pages. Testing already completed.
@@ -119,7 +149,7 @@
 6. Footer:
     1. Footer code is identical on all html pages. Testing already completed.
 
-### How to Order Page:
+#### How to Order Page:
 
 1. Navigation bar: 
     1. Navbar code is identical on all html pages. Testing already completed.
@@ -141,7 +171,7 @@
     1. Footer code is identical on all html pages. Testing already completed.
     
 
-### Contact Page:
+#### Contact Page:
 
 1. Navigation bar: 
     1. Navbar code is identical on all html pages. Testing already completed.
