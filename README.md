@@ -46,7 +46,7 @@ The customer goals of this website are:
 - As a new visitor to the website, I want to easily navigate the site, so I can find what I need efficiently. 
 - As a new visitor to the website, I want view this artist's gallery, and view their work in detail so I can decide if I want to commission their work. 
 - As a new visitor to the website, I want learn more about the artist, so I can feel I connect with her as a person.
-- As a potential client, I want to know what past clients thought of their artwork and the service they recieved.
+- As a potential client, I want to know what past clients thought of their artwork and the service they received.
 - As a potential client, I want to view expected prices for a portrait, so I can decide if it is within my budget to order. 
 - As an interested client, I want to understand the ordering process, so I know what steps to take next. 
 - As an interested client, I want an easy to fill in contact form, so I can make contact with the artist and place my order. 
@@ -65,7 +65,7 @@ The customer goals of this website are:
 ## Features
 
 Each page features a responsive **navigation bar** with conventional placing of **logo** (top left) and a highlighted "request a quote" button in the top right.
-Each page has a **footer** with **copyright information** and **social media icons**linking to 5 the artists' social media pages. 
+Each page has a **footer** with **copyright information** and **social media icons** linking to 5 the artists' social media pages. 
 
 Every page - except the home page - features its own **hero image** at the top, detailing a drawing or painting by the artist, 
 or in the case of the about page, a photo of the artist in her studio. 
@@ -75,7 +75,7 @@ The purpose of the hero image is to grab attention and give a positive emotional
 
 The Home page features a special hero image _or_ video. On mobile and tablet devices a full screen static image is seen. 
 On desktops this is replaced with a promotional video, which autoplays on mute as a background element. Both of these elements have the page header displayed as an overlay.
-The purpose of this hero image/video element is to give maximum impact on arriving at the website, while not using up people's data unnessasarily on mobile and tablet devices.
+The purpose of this hero image/video element is to give maximum impact on arriving at the website, while not using up people's data unnecessarily on mobile and tablet devices.
 
 The home page **promotional video** hosted by Vimeo, engages the user and tells them the value of the products on offer.
 
@@ -204,7 +204,7 @@ There are no differences between the deployed version and the development versio
 
 ### Acknowledgements
 
-- I received inspiration for this project from my own experience of building and maintaining a wordpress website for this business in the past years. 
+- I received inspiration for this project from my own experience of building and maintaining a WordPress website for this business in the past years. 
 - My mentor Simen Daehlin guided me towards attempting the special responsive header on the Home page.
 
 #### Disclaimer
