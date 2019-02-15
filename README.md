@@ -153,7 +153,7 @@ The bottom of the form contains a **Send Button**
 In this section, you should mention all of the languages, frameworks, libraries, and any other 
 tools that you have used to construct this project. For each, provide its name, a link to its 
 official site and a short sentence of why it was used.
-- This project uses HTML5 and CSS programming languages.
+- This project uses HTML and CSS programming languages.
 - [Cloud9](https://c9.io) - This developer used **Cloud9** for their IDE while building the website.
 - [BootstrapCDN](https://www.bootstrapcdn.com/)
     - The project uses **Bootstrap4** to simplify the structure of the website and make the website responsive easily.
@@ -164,6 +164,10 @@ official site and a short sentence of why it was used.
     - The project uses **Google fonts** to style the website fonts.
 - [Vimeo](https://vimeo.com) 
     - The project used **Vimeo** to host the promotional video. 
+- [jQuery](https://jquery.com/)
+    - The project used **jQuery** to reference Javascript needed for the responsive navbar, Vimeo video and Fancybox gallery modal.
+- [Popper.js](https://popper.js.org/)
+    - The project used **Popper,js** reference Javascript needed for the responsive navbar.
 - [W3C CSS validation](https://jigsaw.w3.org/css-validator/)
 - [W3C Markup Validation]( https://validator.w3.org/)
     - The developer used **W3C CSS Validation Service** and **W3C  Markup Validation Service** to check the validity of the website code.
@@ -228,3 +232,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Acknowledgements
 
 - I received inspiration for this project from X
+
+#### Disclaimer
+
+The content of this Website is for educational purposes only.
