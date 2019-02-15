@@ -1,4 +1,6 @@
-# Portrait Artist Website [Click to view GitHub Pages](https://github.com/AJGreaves/portrait-artist)
+# Portrait Artist Website 
+
+[Click to view in GitHub Pages](https://github.com/AJGreaves/portrait-artist)
 
 Comprehensive website for a traditional portrait artist based in Amsterdam, The Netherlands. 
 Website features a promotional video, testimonials, a gallery of the artist's work, 
@@ -10,7 +12,7 @@ The business goals of this website are:
 * Build brand awareness.
 * Provide high quality examples of the artist's drawings and paintings.
 * Drive sales in the form of first contact (via the contact page) that will then lead to a sales call with the artist. 
-* Excellent UX to keep potential clients on site long enough to place an order.
+* Excellent UX to keep potential clients on site long enough to fill out the contact form.
 
 The customer goals of this website are:
 * Searching for high quality, bespoke artwork for their home or treasured gift. 
@@ -23,22 +25,22 @@ The customer goals of this website are:
 
 ##### The ideal client for this business is:
 * English speaking.
-* With disposable income.
-* A parent.
-* Living in the Netherlands (but can be anywhere in the world).
+* Has disposable income.
+* Is a parent.
+* Lives in the Netherlands (but can be anywhere in the world).
 
-##### They are searching for:
+##### Visitors to this website are searching for:
 * An artist to create a custom portrait featuring their child(ren) to decorate their home. 
 * And/or a bespoke gift. 
 
 ##### This project is the best way to help them achieve these things because:
 * Most artists' websites have very poor UX. 
 * Other artists' websites are over complicated and produce information overload quickly. 
-* This website is 
-    * easy to navigate.
-    * steps the client through easy to understand learnable information.
-    * gives the client the information they need without overloading them.
-    * guiding them to the goal of the website - to fill out the contact form.
+* This website is:
+    * Easy to navigate.
+    * Steps the client through easy to understand learnable information.
+    * Gives the client the information they need without overloading them.
+    * Guiding them to the goal of the website - to fill out the contact form.
 
 ##### Client stories
 - As a new visitor to the website, I want to easily navigate the site, so I can find what I need efficiently. 
@@ -168,14 +170,23 @@ official site and a short sentence of why it was used.
     - The project uses **jQuery** to reference Javascript needed for the responsive navbar, Vimeo video and Fancybox gallery modal.
 - [Popper.js](https://popper.js.org/)
     - The project uses **Popper,js** reference Javascript needed for the responsive navbar.
-- [W3C CSS validation](https://jigsaw.w3.org/css-validator/)
 - All external images are stored and linked from a **Wordpress Media library** owned by the artist.
 
 
 ## Testing - STILL TO COMPLETE
 
+- [W3C CSS validation](https://jigsaw.w3.org/css-validator/)
 - [W3C Markup Validation]( https://validator.w3.org/)
     - The developer used **W3C CSS Validation Service** and **W3C  Markup Validation Service** to check the validity of the website code.
+
+### Home Page:
+
+1. Navigation bar:
+    1. Go to the "Home" page
+    2. Change the screen size from from desktop to tablet to verify that the navigation bar is responsive and switches from in line menu to burger icon dropdown menu at the appropriate place.
+    3. When checking responsiveness of navbar, verify that there is no overflow causing ugly size changes to menu items.
+    2. Hover over the logo in the navigation bar and verify that the alt text appears.
+    3. Click on the logo in the navigation bar and verify that it takes us to the home page.
 
 In this section, you need to convince the assessor that you have conducted enough testing 
 to legitimately believe that the site works well. Essentially, in this part you will want 
