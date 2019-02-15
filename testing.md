@@ -33,18 +33,53 @@
 3. Compelling copy section:
     1. Reduce and expand width of window to confirm that the text in this section responds correctly and looks good on all device widths. 
 
-3. Testimonials:
+4. Testimonials:
     1. Reduce and expand width of window to confirm that 3 testimonials display on medium to large screens, but one is hidden on mobile devices.
 
-4. Call to action button(s):
+5. Call to action button:
     1. Hover over call to action button and verify the hover colour change. 
     2. Click the call to action button and verify that it links to the correct page. 
     
-5. Footer: 
+6. Footer: 
     1. Hover over each social media icon and confirm colour and size transitions expected.
     2. Click on each icon to confirm it opens a separate tab for it's link.
     3. Reduce and expand width of window to verify that the footer is responsive and looks good on all device widths. 
 
+7. Review all functionality and responsiveness on my mobile phone and tablet.
+
+
+### About Page:
+
+1. Navigation bar: 
+    1. Repeat verification steps done for navbar on home page.
+    2. Confirm that navbar code is identical on all html pages. 
+
+2. Hero image:
+    1. Hover over hero image and confirm that alt title appears.
+    2. Reduce and expand width of window to verify that the hero image behaves and centres the way expected, and that it looks good on all device widths.
+
+3. Page images: 
+    1. Hover over each image in the content and confirm that the alt title for each appears.
+    2. Reduce and expand width of window to verify that each image behaves and centres the way expected, and that they look good on all device widths.
+
+4. Page content: 
+    1. Reduce and expand width of window to verify that each line of text behaves the way expected, and that the text arrangement looks good on all device widths.
+    
+5. Call to action buttons:
+    1. Hover over each call to action button and verify the hover colour change. 
+    2. Click each call to action button and verify that it links to its relevant correct page. 
+    3. Reduce and expand width of window to verify that the call to action buttons spacing responds as expected. 
+    4. Confirm that the two buttons move to stacked on top of each other for mobile devices and display next to each other for larger screens.
+
+6. Footer:
+    1. Repeat verification steps done for footer on home page.
+    2. Confirm that footer code is identical on all html pages.
+
+
+## Further testing: 
+
+1. Asked fellow students, friends and family to look at the site on their devices and report any issues they find. _margins were adjusted for navigation bar after feedback that "request quote" button was too close to nav menu on some devices_
+2. I viewed my website on several devices at a local tech store, no further issues found.
 
 In this section, you need to convince the assessor that you have conducted enough testing 
 to legitimately believe that the site works well. Essentially, in this part you will want 
