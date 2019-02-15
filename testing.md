@@ -10,43 +10,66 @@
 - [W3C Markup Validation]( https://validator.w3.org/)
     - The developer used **W3C CSS Validation Service** and **W3C  Markup Validation Service** to check the validity of the website code.
 
-#### Home Page:
-
 ### Client stories testing:
 
 Most common path through the website: 
 - Home > Gallery > Pricing > How to Order > Contact 
-Each of these pages points clearly to the next one with a call to action button, but in some places the customer may have a different question in their mind, so a second button is also provided. 
+Each of these pages points clearly to the next one with a call to action button. In some places the customer may have a different question in their mind, so a second button is also provided. 
 
-Some pages offer two possible paths: 
-- From Gallery > Pricing OR How to Order
+The About page is not nessaserily part of the flow of the site for users, but it has been included 
+to offer infomation about the artist for those who are curious about her. The information here is kept short as to not overload the user. 
+
+Some pages offer two possible paths in their call to action buttons: 
 - From About > Gallery OR How to Order
+- From Gallery > Pricing OR How to Order
 
-*IMPORTANT* 
+### Testing client stories from UX section of README.md
 
 1. As a new visitor to the website, I want to easily navigate the site, so I can find what I need efficiently. 
     1. No matter what page the new visitor lands on, they can easily find and use the navigation bar. 
     2. The logo image always leads back to the home page (the starting place for most client stories).
-    3. The home page call to action button leads the client through the 
+    3. The home page call to action button leads the client through the gallery.
     
 2. As a new visitor to the website, I want view this artist's gallery, and view their work in detail so I can decide if I want to commission their work. 
-    1. At the bott
-    2. 
+    1. At the bottom of the Home page and About page page there is a clear call to action button leading the visitor to the gallery.
+    2. A clearly labeled Gallery page is easy to find in the navigation on every page.. 
     
-3. As a new visitor to the website, I want learn more about the artist, so I can feel I connect with her as a person.
+3. As a visitor to the website, I am curious to know more about the artist, so I can feel I connect with her as a person.
+    1. A clearly labeled How to About page is easy to find in the navigation on every page.. 
+    2. The About page contains photos of the artist in her studio, and short but compelling text about what the artist enjoys about her work.
+
 4. As a potential client, I want to know what past clients thought of their artwork and the service they received.
+    1. On the home page, testimonials from past clients are easy to find and to read.
+
 5. As a potential client, I want to view expected prices for a portrait, so I can decide if it is within my budget to order. 
+    1. A clearly labeled pricing page is easy to find in the navigation on every page.. 
+    2. Once the visitor to the website has already been led by call to action buttons from the Home page, and through to the Gallery, they are then led to the Pricing page.
+    
 6. As an interested client, I want to understand the ordering process, so I know what steps to take next. 
+    1. A clearly labeled How to Order page is easy to find in the navigation on every page. 
+    2. Once the visitor to the website has already been led by call to action buttons from the Home page, and through to the Gallery, and Pricing page, they are then led to the How to Order page.
+    3. The How to Order page clearly and intuitvely explains the steps involved in placing an order, using icons to add another level of clear communication to the explanation.
+    4. At the bottom of the How to Order page, the first step in ordering is clearly marked as a call to action button. Which leads to the contact page.
+
 7. As an interested client, I want an easy to fill in contact form, so I can make contact with the artist and place my order. 
+    1. A clearly labeled contact page is easy to find in the website navigation on every page.
+
 8. As an interested observer and/or potential client, I want to follow the artist on social media, so I can keep up with her latest news. 
+    1. 5 social media icons can be found in the footer on every page of the website.
+    
+9. As a returning visitor to the website, who has already decided to contact the artist, I want to be able to request a quote easily.
+    1. There is a clearly marked "Request quote" button in the navigation bar, highlighed as a button so that it stands out from all the other menu items. It displays in the top right of desktop and tablet screens, and at the bottom of the dropdown menu on mobiles.
+
 
 ### Manual (logical) testing of all elements and functionality on every page.
+
+#### Home Page:
 
 1. Navigation bar:
     1. Go to the "Home" page from a desktop.
     2. Change the screen size from from desktop to tablet to verify that the navigation bar is responsive and switches from in line menu to burger icon dropdown menu at the appropriate place.
     3. When checking responsiveness of navbar, verify that there is no overflow causing ugly size changes to menu items. _During testing there were overflow problems here. This was fixed by reducing size of the button and logo margins_
-    4. Hover over the logo in the navigation bar and verify that the alt text appears. _During testing  this did not happen, so I added a title attribute to the logo to fix_
+    4. Hover over the logo in the navigation bar and verify that the alt text appears. _During testing this did not happen, so I added a title attribute to the logo to fix_
     5. Click on the logo in the navigation bar and verify that it links to the home page. 
     6. Click on each navigation menu item and verify that it links to the correct page. 
     7. Hover over the "request quote" button and verify the hover colour change works as expected.
@@ -71,7 +94,7 @@ Some pages offer two possible paths:
     2. Click the call to action button and verify that it links to the correct page. 
     
 6. Footer: 
-    1. Hover over each social media icon and confirm colour and size transitions expected.
+    1. Hover over each social media icon and confirm colour and size transitions expected. 
     2. Click on each icon to confirm it opens a separate tab for it's link.
     3. Reduce and expand width of window to verify that the footer is responsive and looks good on all device widths. 
 
@@ -105,6 +128,8 @@ Some pages offer two possible paths:
     1. Repeat verification steps done for footer on Home page.
     2. Confirm that footer code is identical on all html pages.
 
+7. Review all functionality and responsiveness on my mobile phone and tablet.
+
 
 #### Gallery Page:
 
@@ -126,6 +151,8 @@ Some pages offer two possible paths:
     
 5. Footer:
     1. Footer code is identical on all html pages. Testing already completed.
+     
+6. Review all functionality and responsiveness on my mobile phone and tablet.
 
 
 #### Pricing Page:
@@ -148,6 +175,8 @@ Some pages offer two possible paths:
     
 6. Footer:
     1. Footer code is identical on all html pages. Testing already completed.
+    
+7. Review all functionality and responsiveness on my mobile phone and tablet.
 
 #### How to Order Page:
 
@@ -169,6 +198,8 @@ Some pages offer two possible paths:
     
 6. Footer:
     1. Footer code is identical on all html pages. Testing already completed.
+ 
+7. Review all functionality and responsiveness on my mobile phone and tablet.
     
 
 #### Contact Page:
@@ -188,6 +219,8 @@ Some pages offer two possible paths:
 
 4. Footer:
     1. Footer code is identical on all html pages. Testing already completed.
+
+5. Review all functionality and responsiveness on my mobile phone and tablet.
 
 ## Further testing: 
 

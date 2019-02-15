@@ -55,7 +55,8 @@ The customer goals of this website are:
 5. As a potential client, I want to view expected prices for a portrait, so I can decide if it is within my budget to order. 
 6. As an interested client, I want to understand the ordering process, so I know what steps to take next. 
 7. As an interested client, I want an easy to fill in contact form, so I can make contact with the artist and place my order. 
-8. As an interested observer and/or potential client, I want to follow the artist on social media, so I can keep up with her latest news. 
+8. As an interested observer and/or potential client, I want to follow the artist on social media, so I can keep up with her latest news.
+9. As a returning visitor to the website, who has already decided to contact the artist, I want to be able to find the request a quote page easily.
 
 ##### Wireframe mockups: 
 
