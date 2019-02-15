@@ -15,8 +15,8 @@
 1. Navigation bar:
     1. Go to the "Home" page from a desktop.
     2. Change the screen size from from desktop to tablet to verify that the navigation bar is responsive and switches from in line menu to burger icon dropdown menu at the appropriate place.
-    3. When checking responsiveness of navbar, verify that there is no overflow causing ugly size changes to menu items. _initially there were overflow problems here. This was fixed by reducing size of the button and logo margins_
-    4. Hover over the logo in the navigation bar and verify that the alt text appears.
+    3. When checking responsiveness of navbar, verify that there is no overflow causing ugly size changes to menu items. _During testing there were overflow problems here. This was fixed by reducing size of the button and logo margins_
+    4. Hover over the logo in the navigation bar and verify that the alt text appears. _During testing  this did not happen, so I added a title attribute to the logo to fix_
     5. Click on the logo in the navigation bar and verify that it links to the home page. 
     6. Click on each navigation menu item and verify that it links to the correct page. 
     7. Hover over the "request quote" button and verify the hover colour change works as expected.
@@ -27,7 +27,24 @@
 2. Hero image / video:
     1. Go to "Home" page from a desktop. 
     2. Confirm video is visible, autoplays on mute and is 100% width of the screen. 
-    3. Reduce the width of the window to confirm that the video switches to static image in mobile
+    3. Reduce the width of the window to confirm that the video switches to static image in mobile.
+    4. Reduce and expand width of window to confirm that the overlay on top of image / video responds correctly and does not obscure important features. 
+
+3. Compelling copy section:
+    1. Reduce and expand width of window to confirm that the text in this section responds correctly and looks good on all device widths. 
+
+3. Testimonials:
+    1. Reduce and expand width of window to confirm that 3 testimonials display on medium to large screens, but one is hidden on mobile devices.
+
+4. Call to action button(s):
+    1. Hover over call to action button and verify the hover colour change. 
+    2. Click the call to action button and verify that it links to the correct page. 
+    
+5. Footer: 
+    1. Hover over each social media icon and confirm colour and size transitions expected.
+    2. Click on each icon to confirm it opens a separate tab for it's link.
+    3. Reduce and expand width of window to verify that the footer is responsive and looks good on all device widths. 
+
 
 In this section, you need to convince the assessor that you have conducted enough testing 
 to legitimately believe that the site works well. Essentially, in this part you will want 
