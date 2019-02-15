@@ -98,7 +98,26 @@
     1. Footer code is identical on all html pages. Testing already completed.
 
 
+### Pricing Page:
 
+1. Navigation bar: 
+    1. Navbar code is identical on all html pages. Testing already completed.
+
+2. Hero image:
+    1. Repeat verification steps done for hero image on about page.
+
+3. Pricing tables: 
+    1. Reduce and expand width of window to verify that each table responds in the way expected, they display next to each other on desktop, but stacked on top of each other on mobile and tablet.
+    2. Confirm the page looks good at all device widths.
+
+4. Small print: 
+    1. Reduce and expand width of window to verify that the small print text behaves and centres the way expected, and that it looks good on all device widths.
+    
+5. Call to action button: 
+    1. Repeat verification steps done for call to action button on home page.
+    
+6. Footer:
+    1. Footer code is identical on all html pages. Testing already completed.
 
 ## Further testing: 
 
