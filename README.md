@@ -177,16 +177,14 @@ official site and a short sentence of why it was used.
 
 Testing information can be found in [testing.md file](/Testing.md)
 
-## Deployment - STILL TO COMPLETE
+## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This project was developed and stored in git using [Cloud9](https://c9.io)
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+The project was regularly pushed to [GitHub](https://github.com) repository [AJGreaves/portrait-artist](https://github.com/AJGreaves/portrait-artist)
+and published to [GitHub pages](https://pages.github.com/) using the GitHub settings.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+There are no differences between the deployed version and the development version.
 
 
 ## Credits
