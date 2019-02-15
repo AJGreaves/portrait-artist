@@ -54,13 +54,13 @@ The customer goals of this website are:
 
 ##### Wireframe mockups: 
 
-- [Home](http://annagilhespy.com/wp-content/uploads/2019/02/1-Home.jpg)
-- [About](http://annagilhespy.com/wp-content/uploads/2019/02/2-about.jpg) 
-- [Gallery](http://annagilhespy.com/wp-content/uploads/2019/02/3-Gallery.jpg) 
-- [Individual Gallery View](http://annagilhespy.com/wp-content/uploads/2019/02/3.1-Individual-gallery-view.jpg) 
-- [Pricing](http://annagilhespy.com/wp-content/uploads/2019/02/4-Pricing.jpg) 
-- [How to Order](http://annagilhespy.com/wp-content/uploads/2019/02/5-How-to-order.jpg) 
-- [Contact](http://annagilhespy.com/wp-content/uploads/2019/02/6-Contact.jpg) 
+- [Home](https://annagilhespy.com/wp-content/uploads/2019/02/1-Home.jpg)
+- [About](https://annagilhespy.com/wp-content/uploads/2019/02/2-about.jpg) 
+- [Gallery](https://annagilhespy.com/wp-content/uploads/2019/02/3-Gallery.jpg) 
+- [Individual Gallery View](https://annagilhespy.com/wp-content/uploads/2019/02/3.1-Individual-gallery-view.jpg) 
+- [Pricing](https://annagilhespy.com/wp-content/uploads/2019/02/4-Pricing.jpg) 
+- [How to Order](https://annagilhespy.com/wp-content/uploads/2019/02/5-How-to-order.jpg) 
+- [Contact](https://annagilhespy.com/wp-content/uploads/2019/02/6-Contact.jpg) 
 
 ## Features
 
@@ -134,15 +134,15 @@ The bottom of the form contains a **Send Button**
 - Footer Social Icons - Exist on [every page](../index.html) and allows all users to access the social platforms that the artist uses.
 - Call to Action Buttons - Exist on [every page](../index.html) and guide potential clients through the process of viewing artwork, learning about pricing and the order process, and finally making first contact for their order.
 - [Promotional Video](../index.html) - Allows potential clients to connect with the artist, see her working in the studio and view some of her work. Creates connection and emotional response. 
-- [About Page](#) - Allows potential clients to connect with the artist without overloading them with information.
-- [Gallery Page](#) - Allows all visitors to the website to view thumbnail images of the artist's work. Each thumbnail can be clicked to open an individual fancybox viewer.
-- [Fancybox Viewer](#) - Allows potential clients on the Gallery page to view the artist's work in more detail, to move to the next image, previous image or return to the gallery.
-- [Pricing Tables](#) - Allow potential clients to understand the pricing of custom artwork by structuring it in an logical way. 
-- [How to Order Timeline](#) - Allows potential clients to understand the steps involved in ordering their artwork.
-- [Contact Form](#) - Allows potential clients to ask questions, and/or make the first step in their ordering process. Allows easy access to contact details for the artist to make first sales call.
-- [Upload option](#) on Contact form - Allows clients to upload photograph(s) they would like the artist to use for their custom portrait.
+- [About Page](about.html) - Allows potential clients to connect with the artist without overloading them with information.
+- [Gallery Page](gallery.html) - Allows all visitors to the website to view thumbnail images of the artist's work. Each thumbnail can be clicked to open an individual fancybox viewer.
+- [Fancybox Viewer](gallery.html) - Allows potential clients on the Gallery page to view the artist's work in more detail, to move to the next image, previous image or return to the gallery.
+- [Pricing Tables](pricing) - Allow potential clients to understand the pricing of custom artwork by structuring it in an logical way. 
+- [How to Order Steps Guide](how-to-order.html) - Allows potential clients to understand the steps involved in ordering their artwork.
+- [Contact Form](contact.html) - Allows potential clients to ask questions, and/or make the first step in their ordering process. 
+- [Upload option](contact.html) on Contact form - Allows clients to upload a photograph they would like the artist to use for their custom portrait.
 
-### Features Left to Implement
+### Features to Implement in future
 - GDPR compliant pop-up screen - Allows all new visitors to the website to approve or deny the processing of their personal data. Ensures the business complies with the EU data protection law. - Javascript Needed
 - Add CAPTCHA to contact form - Allows business to protect the contact form from spam. - Javascript Needed
 - contact form Send button change from *Send* to *Processing* and then when complete changes to *Sent*. - Javascript Needed
@@ -150,11 +150,9 @@ The bottom of the form contains a **Send Button**
 - Artists' blog - Allows new potential clients to discover the website through articles written by the artist establishing her as a thought leader. - Artist currently doesn't have time to write a blog.
 - Option to choose the language of the website - As the artist's second language is Dutch, this would allow Dutch speaking visitors to the website to view it in their native language. - Budget not available for professional translation at the time.
 
-## Technologies Used - UPDATE WHEN COMPLETE
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other 
-tools that you have used to construct this project. For each, provide its name, a link to its 
-official site and a short sentence of why it was used.
+## Technologies Used
+
 - This project uses HTML and CSS programming languages.
 - [Cloud9](https://c9.io) - This developer used **Cloud9** for their IDE while building the website.
 - [BootstrapCDN](https://www.bootstrapcdn.com/)
@@ -175,7 +173,7 @@ official site and a short sentence of why it was used.
 
 ## Testing 
 
-Testing information can be found in [testing.md file](/Testing.md)
+Testing information can be found in separate [testing.md file](/Testing.md)
 
 ## Deployment
 
