@@ -165,16 +165,17 @@ official site and a short sentence of why it was used.
 - [Vimeo](https://vimeo.com) 
     - The project used **Vimeo** to host the promotional video. 
 - [jQuery](https://jquery.com/)
-    - The project used **jQuery** to reference Javascript needed for the responsive navbar, Vimeo video and Fancybox gallery modal.
+    - The project uses **jQuery** to reference Javascript needed for the responsive navbar, Vimeo video and Fancybox gallery modal.
 - [Popper.js](https://popper.js.org/)
-    - The project used **Popper,js** reference Javascript needed for the responsive navbar.
+    - The project uses **Popper,js** reference Javascript needed for the responsive navbar.
 - [W3C CSS validation](https://jigsaw.w3.org/css-validator/)
-- [W3C Markup Validation]( https://validator.w3.org/)
-    - The developer used **W3C CSS Validation Service** and **W3C  Markup Validation Service** to check the validity of the website code.
-- All external images were stored and linked from a **Wordpress Media library** owned by the artist.
+- All external images are stored and linked from a **Wordpress Media library** owned by the artist.
 
 
 ## Testing - STILL TO COMPLETE
+
+- [W3C Markup Validation]( https://validator.w3.org/)
+    - The developer used **W3C CSS Validation Service** and **W3C  Markup Validation Service** to check the validity of the website code.
 
 In this section, you need to convince the assessor that you have conducted enough testing 
 to legitimately believe that the site works well. Essentially, in this part you will want 
