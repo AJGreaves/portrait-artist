@@ -128,7 +128,36 @@
     1. Repeat verification steps done for hero image on About page.
 
 3. Steps to Order Section: 
-    1. Reduce and expand width of window to verify that the steps display the way expected, and that they look good on all device widths.
+    1. Reduce and expand width of window to verify that the steps containers, icons and text display the way expected, 
+    2. Confirm that the steps look good on all device widths.
+
+4. Completion times text: 
+    1. Repeat verification steps done for small print on pricing page.
+
+5. Call to action button: 
+    1. Repeat verification steps done for call to action button on Home page.
+    
+6. Footer:
+    1. Footer code is identical on all html pages. Testing already completed.
+    
+
+### Contact Page:
+
+1. Navigation bar: 
+    1. Navbar code is identical on all html pages. Testing already completed.
+
+2. Hero image:
+    1. Repeat verification steps done for hero image on About page.
+
+3. Contact form: 
+    1. Try to submit the empty form and verify that an error message about the required fields appears
+    2. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    3. Try to submit the form with a file uploaded, verify that file selection process works.
+    4. Try to submit the form with all inputs valid and verify that a success message appears.
+    5. Reduce and expand width of window to verify that the form display behaves and centres the way expected, and that it looks good on all device widths.
+
+4. Footer:
+    1. Footer code is identical on all html pages. Testing already completed.
 
 ## Further testing: 
 
