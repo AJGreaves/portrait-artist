@@ -175,7 +175,7 @@ official site and a short sentence of why it was used.
 
 ## Testing 
 
-Testing information in [testing.md file](/Testing.md)
+Testing information can be found in [testing.md file](/Testing.md)
 
 ## Deployment - STILL TO COMPLETE
 
@@ -196,7 +196,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text for the rest of the website was created by Anna Gilhespy and proof-read/edited by [Catriona Black](https://nl.linkedin.com/in/catrionablack).
 
 ### Media
-- The photos used in this site were obtained from the artist - Anna Gilhespy.
+- All the photos used in this site were obtained from the artist - Anna Gilhespy.
 - Professional photography on images about1.jpg and about3.jpg on the About page by [Rudi Wells Photography](https://headshots.amsterdam) and obtained from the artist - Anna Gilhespy.
 - The video on this website was produced by [Luke Davis](https://about.me/lukedavies) and obtained from the artist - Anna Gilhespy.
 
@@ -206,7 +206,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from my own experience of building and maintaining a wordpress website for this business in the past years. 
+- My mentor Simen Daehlin guided me towards attempting the special responsive header on the Home page.
 
 #### Disclaimer
 
