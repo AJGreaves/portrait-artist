@@ -1,8 +1,16 @@
-# Portrait Artist Website 
+<h1 align="center">
+  <a href="https://ajgreaves.github.io/portrait-artist/" target="_blank"><img src="https://i.ibb.co/1T59yzS/readmelogo.jpg" alt="Anna Gilhespy logo"/></a>
+</h1>
+<h2 align="center">
+<a href="https://ajgreaves.github.io/portrait-artist/" target="_blank"><img src="https://i.ibb.co/q7g4cj4/tagline.png" alt="Portrait artist" ></a>
+</h2>
+
+<div align="center"> 
 
 [View website in GitHub Pages](https://github.com/AJGreaves/portrait-artist)
+</div>
 
-Comprehensive website for a traditional portrait artist based in Amsterdam, The Netherlands. 
+A comprehensive website for a traditional portrait artist based in Amsterdam, The Netherlands. 
 Website features a promotional video, testimonials, a gallery of the artist's work, 
 an about page, pricing tables, a clear step-by-step guide to ordering and a contact page. 
 The primary goal of the website is to lead potential customers to making first contact with the
