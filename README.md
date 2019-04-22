@@ -182,7 +182,7 @@ The bottom of the form contains a **Send Button**
 
 ## Testing 
 
-Testing information can be found in separate [testing.md file](/Testing.md)
+Testing information can be found in separate [TESTING.md file](TESTING.md)
 
 ## Deployment
 
