@@ -45,18 +45,21 @@ a:hover{
     border-top: 1px solid #000;
 }
 
-.row{ /* suggested by mentor to get rid of overflow on pages*/
+/* gets rid of overflow on pages*/
+.row{ 
     margin-left: 0;
     margin-right: 0;
 }
 
-.container-fluid{ /* suggested by mentor to get rid of overflow on pages*/
+/* gets rid of overflow on pages*/
+.container-fluid{ 
     width: 99%;
 }
 
 
 /*------------ NAVIGATION ------------*/
 
+/* shadow and z-index to make navbar appear to be floating above other content */
 .navbar{
     box-shadow: 0px 8px 10px 1px rgba(0,0,0,0.2);
     text-align: center;
@@ -156,6 +159,7 @@ a:hover{
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    /* positions image correctly on all screen sizes */
     background-position: center 25%;
 }
 
@@ -191,6 +195,7 @@ a:hover{
 
 .about-img-3{
     background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/about3.jpg");
+    /* positions image correctly on all screen sizes */
     background-position: center 25%;
 }
 
@@ -202,6 +207,7 @@ a:hover{
   border-radius: 5px; /*this code added by me*/
 }
 
+/* creates pleasing illusion of hovered image being raised up from the screen */
 .gallery-thumbnail:hover { /*original code credit: https://codepen.io/sdthornton/pen/wBZdXq */
   box-shadow: 0 3px 9px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.22); /*width and height of hover shadow changed by me*/
 }
@@ -231,6 +237,7 @@ a:hover{
     -webkit-transition: all 0.2s ease-in-out 0.2s;
 }
 
+/* UX feature, social icons grow and change colour when hovered over */
 .fab:hover{
     transform: scale(1.4);
 }
@@ -258,13 +265,15 @@ a:hover{
 
 /*------------ MEDIA QUERIES ------------*/
 
-@media screen and (max-width: 768px){ /*phones*/
+/*phones*/
+@media screen and (max-width: 768px){ 
     .fontchange-sm{
         font-size: 20px;
     }
 }
 
-@media screen and (max-width: 992px) { /*phones and tablets*/
+/*phones and tablets*/
+@media screen and (max-width: 992px) { 
 	.gallery-img {
 		display: flex;
 		justify-content: center;
@@ -273,7 +282,8 @@ a:hover{
 	}
 } 
 
-@media screen and (min-width: 993px) { /*desktops and XL screens*/
+/*desktops and XL screens*/
+@media screen and (min-width: 993px) { 
 	.gallery-row {
 		margin-top: 2rem;
 	}
