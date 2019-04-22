@@ -186,13 +186,34 @@ Testing information can be found in separate [testing.md file](/Testing.md)
 
 ## Deployment
 
-This project was developed and stored in git using [Cloud9](https://c9.io)
+This project was developed using the [Cloud9 IDE](https://c9.io), committed to git and pushed to GitHub using the built in function within cloud9. 
 
-The project was regularly pushed to [GitHub](https://github.com) repository [AJGreaves/portrait-artist](https://github.com/AJGreaves/portrait-artist)
-and published to [GitHub pages](https://pages.github.com/) using the GitHub settings.
+To deploy PicFlip! to GitHub Pages from its [GitHub repository](https://github.com/AJGreaves/portrait-artist), the following steps were taken: 
+1. Log into GitHub. 
+2. From the list of repositories on the screen, select **AJGreaves/portrait-artist**.
+3. From the menu items near the top of the page, select **Settings**.
+4. Scroll down to the **GitHub Pages** section.
+5. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
+6. On selecting Master Branch the page is automatically refreshed, the website is now deployed. 
+7. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
 
-There are no differences between the deployed version and the development version.
+At the moment of submitting this Milestone project the Development Branch and Master Branch are identical. 
 
+### How to run this project locally
+
+To clone this project from GitHub:
+1. Follow this link to the [PicFlip GitHub repository](https://github.com/AJGreaves/portrait-artist).
+2. Under the repository name, click "Clone or download".
+3. In the Clone with HTTPs section, copy the clone URL for the repository. 
+4. In your local IDE open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type ```git clone```, and then paste the URL you copied in Step 3.
+```console
+git clone https://github.com/USERNAME/REPOSITORY
+```
+7. Press Enter. Your local clone will be created.
+
+Further reading and troubleshooting on cloning a repository from GitHub [here](https://help.github.com/en/articles/cloning-a-repository).
 
 ## Credits
 
