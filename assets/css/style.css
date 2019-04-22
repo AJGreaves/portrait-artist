@@ -61,7 +61,8 @@ a:hover{
 
 /* shadow and z-index to make navbar appear to be floating above other content */
 .navbar{
-    box-shadow: 0px 8px 10px 1px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 8px 10px 1px rgba(0,0,0,0.2);
+            box-shadow: 0px 8px 10px 1px rgba(0,0,0,0.2);
     text-align: center;
     z-index: 1;
 }
@@ -74,7 +75,8 @@ a:hover{
 /*------------ CONTAINERS ------------*/
 
 .order-steps-container{
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+            box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 
@@ -95,7 +97,8 @@ a:hover{
     z-index: -99;
 }
 
-.video-overlay{ /*original code credit: "FullScreen YouTube Video Background In Pure CSS" https://codepen.io/dudleystorey/pen/PZyMrd */
+/*original code credit: "FullScreen YouTube Video Background In Pure CSS" https://codepen.io/dudleystorey/pen/PZyMrd */
+.video-overlay{ 
     background: rgba(0,0,0,0.5);
     position: absolute;
     bottom:20%;
@@ -105,7 +108,7 @@ a:hover{
     line-height: 1.5;
     text-align: center;
     z-index: -98;
-    }
+}
     
 
 /*------------ IMAGES ------------*/
@@ -113,6 +116,7 @@ a:hover{
 .hero-img{
     height: 400px;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
     background-size: cover;
     position: relative;
 }
@@ -158,7 +162,8 @@ a:hover{
     position: relative;
     height: 100vh;
     background-repeat: no-repeat;
-    background-size: cover;
+    -webkit-background-size: cover;
+            background-size: cover;
     /* positions image correctly on all screen sizes */
     background-position: center 25%;
 }
@@ -172,14 +177,15 @@ a:hover{
     width: 100%;
     line-height: 1.5;
     text-align: center;
-    }
+}
     
 
 /*ABOUT PAGE IMAGES*/
 
 .about-img{
     position: relative;
-    background-size: cover;
+    -webkit-background-size: cover;
+            background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 300px;
@@ -201,15 +207,22 @@ a:hover{
 
 /*GALLERY PAGE IMAGES*/
 
-.gallery-thumbnail{ /*original code credit: https://codepen.io/sdthornton/pen/wBZdXq */
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+/*original code credit: https://codepen.io/sdthornton/pen/wBZdXq */
+.gallery-thumbnail{ 
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+          box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  -webkit-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  -o-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   border-radius: 5px; /*this code added by me*/
 }
 
 /* creates pleasing illusion of hovered image being raised up from the screen */
-.gallery-thumbnail:hover { /*original code credit: https://codepen.io/sdthornton/pen/wBZdXq */
-  box-shadow: 0 3px 9px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.22); /*width and height of hover shadow changed by me*/
+/* original code credit: https://codepen.io/sdthornton/pen/wBZdXq */
+.gallery-thumbnail:hover { 
+/*width and height of hover shadow changed by me*/
+  -webkit-box-shadow: 0 3px 9px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.22);
+          box-shadow: 0 3px 9px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.22); 
 }
 
 .gallery-img img{
@@ -232,6 +245,7 @@ a:hover{
 
 .fab{
     color: #ffffff; 
+    -o-transition: all 0.2s ease-in-out 0.2s; 
     transition: all 0.2s ease-in-out 0.2s;
     -moz-transition: all 0.2s ease-in-out 0.2s;
     -webkit-transition: all 0.2s ease-in-out 0.2s;
@@ -239,7 +253,9 @@ a:hover{
 
 /* UX feature, social icons grow and change colour when hovered over */
 .fab:hover{
-    transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+            transform: scale(1.4);
 }
   
 .fa-instagram:hover{
@@ -275,8 +291,14 @@ a:hover{
 /*phones and tablets*/
 @media screen and (max-width: 992px) { 
 	.gallery-img {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
 		display: flex;
-		justify-content: center;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
 		max-width: 50%;
 		padding: 10px;
 	}

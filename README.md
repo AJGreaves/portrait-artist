@@ -177,6 +177,8 @@ The bottom of the form contains a **Send Button**
     - The project uses **jQuery** to reference Javascript needed for the responsive navbar, Vimeo video and Fancybox gallery modal.
 - [Popper.js](https://popper.js.org/)
     - The project uses **Popper,js** reference Javascript needed for the responsive navbar.
+- [AutoPrefixer](https://autoprefixer.github.io/)
+    - This project used **AutoPrefixer** to make sure the css code is valid for all browsers.
 - All external images are stored and linked from a **Wordpress Media library** owned by the artist.
 
 
