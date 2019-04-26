@@ -198,7 +198,7 @@ Testing information can be found in separate [TESTING.md file](TESTING.md)
 
 This project was developed using the [Cloud9 IDE](https://c9.io), committed to git and pushed to GitHub using the built in function within cloud9. 
 
-To deploy PicFlip! to GitHub Pages from its [GitHub repository](https://github.com/AJGreaves/portrait-artist), the following steps were taken: 
+To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/AJGreaves/portrait-artist), the following steps were taken: 
 1. Log into GitHub. 
 2. From the list of repositories on the screen, select **AJGreaves/portrait-artist**.
 3. From the menu items near the top of the page, select **Settings**.
@@ -212,7 +212,7 @@ At the moment of submitting this Milestone project the Development Branch and Ma
 ### How to run this project locally
 
 To clone this project from GitHub:
-1. Follow this link to the [PicFlip GitHub repository](https://github.com/AJGreaves/portrait-artist).
+1. Follow this link to the [Project GitHub repository](https://github.com/AJGreaves/portrait-artist).
 2. Under the repository name, click "Clone or download".
 3. In the Clone with HTTPs section, copy the clone URL for the repository. 
 4. In your local IDE open Git Bash.
