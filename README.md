@@ -248,3 +248,14 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 #### Disclaimer
 
 The content of this Website is for educational purposes only.
+
+
+### A note to my fellow Code Institute students
+
+I am happy that you have come to look at my readme as an example of how to write a good one for your first Milestone project. 
+You are welcome to learn how to structure and format your own readme from mine. 
+
+However, it is not ok to copy and paste large portions of it into your own project. 
+Please remember to write your own readme yourself, rather than copying mine or someone elses. 
+
+Many thanks! Anna 
