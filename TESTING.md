@@ -226,3 +226,14 @@ Some pages offer two possible paths in their call to action buttons:
 
 1. Asked fellow students, friends and family to look at the site on their devices and report any issues they find. _margins were adjusted for navigation bar after feedback that "request quote" button was too close to nav menu on some devices_
 2. I viewed my website on several devices at a local tech store, no further issues found.
+
+### A note to my fellow Code Institute students
+
+I am happy that you have come to look at my testing.md file as an example 
+of how to write a good one for your second Milestone project. 
+You are welcome to learn how to structure and format your own testing.md from mine.
+
+However, it is not ok to copy and paste large portions of it into your own project. 
+Please remember to write your own, rather than copying mine or someone elses.
+
+Many thanks! Anna
