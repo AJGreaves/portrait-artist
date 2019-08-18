@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC|Tangerine|Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 h1 {
     font-family: 'Tangerine', serif;
     font-size: 100px;
@@ -160,6 +164,7 @@ also being applied to the one in testimonials */
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    background-attachment: fixed;
 }
 
 .hero-img-about {
