@@ -275,6 +275,20 @@ footer {
     padding: 3rem 0;
 }
 
+.footer-nav {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    padding: 1.5rem;
+    -webkit-transition: 0.2s all ease-in-out 0.3s;
+    transition: 0.2s all ease-in-out 0.3s;
+}
+
+.footer-nav:hover {
+    color: #17a2b8;
+}
+
+
 /*------------ SOCIAL ICONS ------------*/
 
 .fab {
