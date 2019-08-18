@@ -4,7 +4,7 @@
 
 h1 {
     font-family: 'Tangerine', serif;
-    font-size: 60px;
+    font-size: 100px;
 }
 
 h2,
@@ -15,6 +15,10 @@ h6,
 h7,
 h8 {
     font-family: 'Noto Serif SC', serif;
+}
+
+.testimonials h3 {
+    margin-bottom: 1rem;
 }
 
 p,
@@ -48,8 +52,10 @@ a:hover {
 
 /*------------ BORDERS & MARGINS ------------*/
 
-.testimonials {
-    border-top: 1px solid #000;
+/* corrects footer css from main footer that was 
+also being applied to the one in testimonials */
+.testimonials footer {
+    padding: 0;
 }
 
 /* gets rid of overflow on pages*/
@@ -63,13 +69,17 @@ a:hover {
     width: 99%;
 }
 
+.quote {
+    margin-top: 1.5rem;
+}
+
 
 /*------------ NAVIGATION ------------*/
 
 /* shadow and z-index to make navbar appear to be floating above other content */
 .navbar {
-    -webkit-box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.2);
     text-align: center;
     z-index: 1;
 }
@@ -120,6 +130,22 @@ a:hover {
 
 
 /*------------ IMAGES ------------*/
+
+#testimonialsHero {
+    min-height: 100vh;
+    background-image: url('https://annagilhespy.com/wp-content/uploads/2019/02/Drawing4-lg.jpg');
+    background-position: center 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.hero-overlay {
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 7% 0;
+}
 
 .hero-img {
     height: 400px;
