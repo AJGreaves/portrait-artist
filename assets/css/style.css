@@ -119,6 +119,17 @@ also being applied to the one in testimonials */
     border-radius: 5px;
 }
 
+.vertical-center {
+    margin: 0;
+    padding: 4rem;
+    position: absolute;
+    top: 50%;
+    width: 90%; 
+    -webkit-transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%);
+}
+
 
 /*------------ EMBEDDED VIDEO BACKGROUND & OVERLAY ------------*/
 
@@ -166,12 +177,13 @@ also being applied to the one in testimonials */
 
 .hero-overlay {
     min-height: 100vh;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 255, 255, 0.65);
     padding: 7% 0;
+    position: relative;
 }
 
 .hero-img {
-    height: 470px;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
