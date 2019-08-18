@@ -100,6 +100,15 @@ also being applied to the one in testimonials */
     height: 66px;
 }
 
+.nav-link {
+    -webkit-transition: 0.2s all ease-in-out 0.3s;
+    transition: 0.2s all ease-in-out 0.3s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #17a2b8;
+}
+
 
 /*------------ CONTAINERS ------------*/
 
@@ -162,7 +171,7 @@ also being applied to the one in testimonials */
 }
 
 .hero-img {
-    height: 400px;
+    height: 470px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -294,9 +303,10 @@ footer {
     color: white;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    padding: 1.5rem;
+    padding: 0.5rem 1rem;
     -webkit-transition: 0.2s all ease-in-out 0.3s;
     transition: 0.2s all ease-in-out 0.3s;
+    display: inline-block;
 }
 
 .footer-nav:hover {
