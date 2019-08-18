@@ -21,6 +21,11 @@ h8 {
     font-family: 'Noto Serif SC', serif;
 }
 
+#pricing-section h2 {
+    font-family: 'Tangerine', serif;
+    font-size: 60px;
+}
+
 .testimonials h3 {
     margin-bottom: 1rem;
 }
@@ -132,6 +137,11 @@ also being applied to the one in testimonials */
 
 h1.vertical-center {
     margin-left: 5rem;
+}
+
+#pricing-section {
+    min-height: 100vh;
+    padding-top: 7%;
 }
 
 
