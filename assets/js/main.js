@@ -12,3 +12,7 @@ function scrollFunction() {
         $(".navbar").removeClass('invisible');
     }
 }
+
+$('.navbar-toggler-icon').click(function() {
+    $('.navbar').toggleClass('bg-white');
+})
