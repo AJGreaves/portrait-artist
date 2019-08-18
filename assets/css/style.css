@@ -2,38 +2,45 @@
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC|Tangerine|Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-h1{
+h1 {
     font-family: 'Tangerine', serif;
     font-size: 60px;
 }
 
-h2, h3, h4, h5, h6, h7, h8{
+h2,
+h3,
+h4,
+h5,
+h6,
+h7,
+h8 {
     font-family: 'Noto Serif SC', serif;
 }
 
-p, ol{
+p,
+ol {
     font-family: 'Roboto', sans-serif;
 }
 
-.p-emphasis p{
-    font-family: 'Noto Serif SC', serif; 
+.p-emphasis p {
+    font-family: 'Noto Serif SC', serif;
     font-weight: 500;
     font-size: 18px;
     font-style: normal;
 }
 
-.fa-7x{
+.fa-7x {
     color: #686868;
 }
 
 
 /*------------ LINKS ------------*/
 
-a{
+a {
     color: #6c757d;
 }
 
-a:hover{
+a:hover {
     text-decoration: none;
     color: #17a2b8
 }
@@ -41,18 +48,18 @@ a:hover{
 
 /*------------ BORDERS & MARGINS ------------*/
 
-.testimonials{
+.testimonials {
     border-top: 1px solid #000;
 }
 
 /* gets rid of overflow on pages*/
-.row{ 
+.row {
     margin-left: 0;
     margin-right: 0;
 }
 
 /* gets rid of overflow on pages*/
-.container-fluid{ 
+.container-fluid {
     width: 99%;
 }
 
@@ -60,48 +67,49 @@ a:hover{
 /*------------ NAVIGATION ------------*/
 
 /* shadow and z-index to make navbar appear to be floating above other content */
-.navbar{
-    -webkit-box-shadow: 0px 8px 10px 1px rgba(0,0,0,0.2);
-            box-shadow: 0px 8px 10px 1px rgba(0,0,0,0.2);
+.navbar {
+    -webkit-box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
     text-align: center;
     z-index: 1;
 }
 
-.pagetop-pushdown{
+.pagetop-pushdown {
     height: 66px;
 }
 
 
 /*------------ CONTAINERS ------------*/
 
-.order-steps-container{
-    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-            box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+.order-steps-container {
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 
 /*------------ EMBEDDED VIDEO BACKGROUND & OVERLAY ------------*/
 
-.video-wrapper{
-    padding: 56.25% 0 0 0; /* this line only - original code credit: https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
+.video-wrapper {
+    padding: 56.25% 0 0 0;
+    /* this line only - original code credit: https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
     position: relative;
 }
 
-.video{
-    position:absolute;
+.video {
+    position: absolute;
     border-style: none;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     z-index: -99;
 }
 
 /*original code credit: "FullScreen YouTube Video Background In Pure CSS" https://codepen.io/dudleystorey/pen/PZyMrd */
-.video-overlay{ 
-    background: rgba(0,0,0,0.5);
+.video-overlay {
+    background: rgba(0, 0, 0, 0.5);
     position: absolute;
-    bottom:20%;
+    bottom: 20%;
     left: 0;
     right: 0;
     width: 100%;
@@ -109,97 +117,94 @@ a:hover{
     text-align: center;
     z-index: -98;
 }
-    
+
 
 /*------------ IMAGES ------------*/
 
-.hero-img{
+.hero-img {
     height: 400px;
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
     background-size: cover;
     position: relative;
 }
 
-.hero-img-about{
+.hero-img-about {
     background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/heroabout.jpg");
     background-position: center 35%;
 }
 
-.hero-img-gallery{
+.hero-img-gallery {
     background-image: url("../images/herogallery.jpg");
     background-position: center 55%;
 }
 
-.hero-img-pricing{
+.hero-img-pricing {
     background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/heropricing.jpg");
     background-position: center 60%;
 }
 
-.hero-img-order{
+.hero-img-order {
     background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/heroorder.jpg");
     background-position: center 55%;
 }
 
-.hero-img-contact{
+.hero-img-contact {
     background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/herocontact.jpg");
     background-position: center 35%;
 }
 
-.hero-img-gallery{
+.hero-img-gallery {
     background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/herogallery.jpg");
     background-position: center 55%;
 }
 
 /*HOME PAGE IMAGES & OVERLAY*/
 
-.hero-img-wrapper{
+.hero-img-wrapper {
     position: relative;
 }
 
-.special-hero-home{
+.special-hero-home {
     background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/herohome.jpg");
     position: relative;
     height: 100vh;
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-            background-size: cover;
+    background-size: cover;
     /* positions image correctly on all screen sizes */
     background-position: center 25%;
 }
 
-.hero-home-overlay{
-    background: rgba(0,0,0,0.5);
+.hero-home-overlay {
+    background: rgba(0, 0, 0, 0.5);
     position: absolute;
-    bottom:33%;
+    bottom: 33%;
     left: 0;
     right: 0;
     width: 100%;
     line-height: 1.5;
     text-align: center;
 }
-    
+
 
 /*ABOUT PAGE IMAGES*/
 
-.about-img{
+.about-img {
     position: relative;
-    -webkit-background-size: cover;
-            background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 300px;
 }
 
-.about-img-1{
+.about-img-1 {
     background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/about1.jpg");
 }
 
-.about-img-2{
+.about-img-2 {
     background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/about2.jpg");
 }
 
-.about-img-3{
+.about-img-3 {
     background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/about3.jpg");
     /* positions image correctly on all screen sizes */
     background-position: center 25%;
@@ -208,73 +213,74 @@ a:hover{
 /*GALLERY PAGE IMAGES*/
 
 /*original code credit: https://codepen.io/sdthornton/pen/wBZdXq */
-.gallery-thumbnail{ 
-  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-          box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  -webkit-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  -o-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  border-radius: 5px; /*this code added by me*/
+.gallery-thumbnail {
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    -webkit-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    border-radius: 5px;
+    /*this code added by me*/
 }
 
 /* creates pleasing illusion of hovered image being raised up from the screen */
 /* original code credit: https://codepen.io/sdthornton/pen/wBZdXq */
-.gallery-thumbnail:hover { 
-/*width and height of hover shadow changed by me*/
-  -webkit-box-shadow: 0 3px 9px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.22);
-          box-shadow: 0 3px 9px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.22); 
+.gallery-thumbnail:hover {
+    /*width and height of hover shadow changed by me*/
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.25), 0 3px 6px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.25), 0 3px 6px rgba(0, 0, 0, 0.22);
 }
 
-.gallery-img img{
+.gallery-img img {
     width: 100%;
 }
-    
+
 
 /*------------ FOOTER ------------*/
 
-.social-icon-shadow{
-    text-shadow: 2px 2px rgba(0,0,0,0.5);
+.social-icon-shadow {
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
 }
 
-.text-shadow{
-    text-shadow: 1px 1px rgba(0,0,0,0.5);
+.text-shadow {
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
 }
 
+footer {
+    padding: 3rem 0;
+}
 
 /*------------ SOCIAL ICONS ------------*/
 
-.fab{
-    color: #ffffff; 
-    -o-transition: all 0.2s ease-in-out 0.2s; 
+.fab {
+    color: #ffffff;
     transition: all 0.2s ease-in-out 0.2s;
     -moz-transition: all 0.2s ease-in-out 0.2s;
     -webkit-transition: all 0.2s ease-in-out 0.2s;
 }
 
 /* UX feature, social icons grow and change colour when hovered over */
-.fab:hover{
+.fab:hover {
     -webkit-transform: scale(1.4);
-        -ms-transform: scale(1.4);
-            transform: scale(1.4);
+    transform: scale(1.4);
 }
-  
-.fa-instagram:hover{
-    color: #fbad50;
-} 
 
-.fa-pinterest:hover{
+.fa-instagram:hover {
+    color: #fbad50;
+}
+
+.fa-pinterest:hover {
     color: #c8232c;
 }
 
-.fa-facebook:hover{
+.fa-facebook:hover {
     color: #3b5998;
 }
 
-.fa-twitter:hover{
+.fa-twitter:hover {
     color: #38A1F3;
 }
 
-.fa-flickr:hover{
+.fa-flickr:hover {
     color: #ff0084;
 }
 
@@ -282,33 +288,29 @@ a:hover{
 /*------------ MEDIA QUERIES ------------*/
 
 /*phones*/
-@media screen and (max-width: 768px){ 
-    .fontchange-sm{
+@media screen and (max-width: 768px) {
+    .fontchange-sm {
         font-size: 20px;
     }
 }
 
 /*phones and tablets*/
-@media screen and (max-width: 992px) { 
-	.gallery-img {
-		display: -webkit-box;
-		display: -webkit-flex;
-		display: -ms-flexbox;
-		display: flex;
-		-webkit-box-pack: center;
-		-webkit-justify-content: center;
-		    -ms-flex-pack: center;
-		        justify-content: center;
-		max-width: 50%;
-		padding: 10px;
-	}
-} 
+@media screen and (max-width: 992px) {
+    .gallery-img {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        max-width: 50%;
+        padding: 10px;
+    }
+}
 
 /*desktops and XL screens*/
-@media screen and (min-width: 993px) { 
-	.gallery-row {
-		margin-top: 2rem;
-	}
-} 
-
-
+@media screen and (min-width: 993px) {
+    .gallery-row {
+        margin-top: 2rem;
+    }
+}
