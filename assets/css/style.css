@@ -140,7 +140,7 @@ also being applied to the one in testimonials */
 }
 
 h1.vertical-center {
-    margin-left: 5rem;
+    margin-left: 2rem;
 }
 
 #pricing-section {
@@ -407,5 +407,22 @@ footer {
 @media screen and (min-width: 993px) {
     .gallery-row {
         margin-top: 2rem;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) { 
+    h1.vertical-center {
+        margin-left: 3rem;
+        font-size: 125px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    h1.vertical-center {
+        margin-left: 5rem;
+        font-size: 150px
     }
 }
