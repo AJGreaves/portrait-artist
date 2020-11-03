@@ -205,11 +205,23 @@ At the moment of submitting this Milestone project the Development Branch and Ma
 
 ### How to run this project locally
 
-To clone this project from GitHub:
+To clone this project into Gitpod you will need:
+1. A Github account. [Create a Github account here](https://github.com/)
+2. Use the Chrome browser 
+
+Then follow these steps:
+1. Install the [Gitpod Browser Extentions for Chrome](https://www.gitpod.io/docs/browser-extension/)
+2. After installation, restart the browser
+3. Log into [Gitpod](https://gitpod.com) with your gitpod account.
+4. Navigate to the [Project GitHub repository](https://github.com/AJGreaves/portrait-artist)
+5. Click the green "Gitpod" button in the top right corner of the respository
+6. This will trigger a new gitpod workspace to be created from the code in github where you can work locally.
+
+To work on the project code within a local IDE such as VSCode, Pycharm etc:
 1. Follow this link to the [Project GitHub repository](https://github.com/AJGreaves/portrait-artist).
 2. Under the repository name, click "Clone or download".
 3. In the Clone with HTTPs section, copy the clone URL for the repository. 
-4. In your local IDE open Git Bash.
+4. In your local IDE open the terminal.
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type ```git clone```, and then paste the URL you copied in Step 3.
 ```console
