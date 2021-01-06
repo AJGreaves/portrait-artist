@@ -2,7 +2,7 @@
 
 ## Portrait artist
 
-**IMPORTANT: The live website for this project has been temporarily taken down**
+**IMPORTANT: The live website for this project has been temporarily taken offline**
 
 **The server that the images for this site were hosted on has been taken down, breaking all image links. The live site has been taken offline until I have time to fix this issue. Thank you for understanding.**
 
