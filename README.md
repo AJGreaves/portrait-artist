@@ -2,7 +2,8 @@
 
 ## Portrait artist
 
-[View website in GitHub Pages](https://github.com/AJGreaves/portrait-artist)
+*IMPORTANT: The live website for this project has been temporarily taken down*
+The server that the images for this site were hosted on has been taken down, breaking all image links. The live site has been taken offline until I have time to fix this issue. Thank you for understanding. 
 
 A comprehensive website for a traditional portrait artist based in Amsterdam, The Netherlands. 
 Website features a promotional video, testimonials, a gallery of the artist's work, 
