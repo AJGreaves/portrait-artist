@@ -185,7 +185,7 @@ h1.vertical-center {
 
 #testimonialsHero {
     min-height: 100vh;
-    background-image: url('https://annagilhespy.com/wp-content/uploads/2019/02/Drawing4-lg.jpg');
+    background-image: url('../images/gallery/Drawing4-lg.jpg');
     background-position: center 35%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -209,32 +209,27 @@ h1.vertical-center {
 }
 
 .hero-img-about {
-    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/heroabout.jpg");
+    background-image: url("../images/heros/heroabout.jpg");
     background-position: center 35%;
 }
 
-.hero-img-gallery {
-    background-image: url("../images/herogallery.jpg");
-    background-position: center 55%;
-}
-
 .hero-img-pricing {
-    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/heropricing.jpg");
+    background-image: url("../images/heros/heropricing.jpg");
     background-position: center 60%;
 }
 
 .hero-img-order {
-    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/heroorder.jpg");
+    background-image: url("../images/heros/heroorder.jpg");
     background-position: center 55%;
 }
 
 .hero-img-contact {
-    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/herocontact.jpg");
+    background-image: url("../images/heros/herocontact.jpg");
     background-position: center 35%;
 }
 
 .hero-img-gallery {
-    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/herogallery.jpg");
+    background-image: url("../images/heros/herogallery.jpg");
     background-position: center 55%;
 }
 
@@ -245,7 +240,7 @@ h1.vertical-center {
 }
 
 .special-hero-home {
-    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/herohome.jpg");
+    background-image: url("../images/heros/herohome.jpg");
     position: relative;
     height: 100vh;
     background-repeat: no-repeat;
@@ -277,15 +272,15 @@ h1.vertical-center {
 }
 
 .about-img-1 {
-    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/about1.jpg");
+    background-image: url("../images/about/about1.jpg");
 }
 
 .about-img-2 {
-    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/about2.jpg");
+    background-image: url("../images/about/about2.jpg");
 }
 
 .about-img-3 {
-    background-image: url("https://annagilhespy.com/wp-content/uploads/2019/02/about3.jpg");
+    background-image: url("../images/about/about3.jpg");
     /* positions image correctly on all screen sizes */
     background-position: center 25%;
 }
