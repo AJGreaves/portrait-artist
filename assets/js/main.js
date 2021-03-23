@@ -16,3 +16,6 @@ function scrollFunction() {
 $('.navbar-toggler-icon').click(function() {
     $('.navbar').toggleClass('bg-white');
 })
+
+// Sets current year for copyright info in footer
+document.getElementById("year").innerHTML = new Date().getFullYear();
